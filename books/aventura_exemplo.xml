@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XML>
+	<Personagens>
+		<Personagem>
+			<Atributos>
+			<Nome>João da Silva</Nome>
+			<Forca>10</Forca>
+			<Saude>10</Saude>
+			</Atributos>
+		</Personagem>
+		<Personagem>
+			<Atributos>
+			<Nome>Maria Joaquina</Nome>
+			<Forca>6</Forca>
+			<Saude>8</Saude>
+			</Atributos>
+		</Personagem>
+	</Personagens>
+	<Capitulos>
+		<Capitulo>
+			<IdCapitulo>1</IdCapitulo>
+			<TextoCapitulo>Você é João e acabou de conhecer Maria. Se vc quiser flertar com Maria, vá para 2. Senão, vá para 3.</TextoCapitulo>
+			<LinksCapitulos>
+				<LinkCapitulo>2</LinkCapitulo>
+				<LinkCapitulo>3</LinkCapitulo>
+			</LinksCapitulos>  
+		</Capitulo>
+		<Capitulo>
+			<IdCapitulo>2</IdCapitulo>
+			<TextoCapitulo>Vc se prepara para cantar Maria. Mas o namorado dela aparece, e tem mais de 2m de altura. Vá para 3.</TextoCapitulo>
+			<LinksCapitulos>
+				<LinkCapitulo>3</LinkCapitulo>
+			</LinksCapitulos>  
+		</Capitulo>
+		<Capitulo>
+			<IdCapitulo>3</IdCapitulo>
+			<TextoCapitulo>Vc vai pra casa, sozinho e frustrado. Forever Alone...</TextoCapitulo>
+			<LinksCapitulos />
+		</Capitulo>
+	</Capitulos>
+</XML>
