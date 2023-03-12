@@ -1,0 +1,16 @@
+<book>
+  <characteristics>
+    <hp current="10" max="10"/>
+    <ht current="10" max="10"/>
+  </characteristics>
+  <page id="1">
+    <text>Você está em um corredor escuro. O que você faz?</text>
+    <option id="1">Ir para a esquerda</option>
+    <option id="2">Ir para a direita</option>
+  </page>
+  <page id="2">
+    <text>Você encontrou uma sala com uma porta trancada. O que você faz?</text>
+    <option id="3">Procurar uma chave</option>
+    <option id="4">Tentar arrombar a porta</option>
+  </page>
+</book>
