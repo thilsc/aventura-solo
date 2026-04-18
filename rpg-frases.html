@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Frases de RPG</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎲 Gerador de Frases de RPG</h1>
+        
+        <div class="form-group">
+            <label for="categoria">Selecione a Categoria do Personagem:</label>
+            <select id="categoria" name="categoria">
+                <option value="guerreiro">Guerreiro</option>
+                <option value="barbaro">Bárbaro</option>
+                <option value="paladino">Paladino</option>
+                <option value="mago">Mago</option>
+                <option value="ladino">Ladino</option>
+                <option value="clerigo">Clérigo</option>
+                <option value="druida">Druida</option>
+                <option value="bardo">Bardo</option>
+                <option value="feiticeiro">Feiticeiro</option>
+                <option value="bruxo">Bruxo</option>
+                <option value="monge">Monge</option>
+                <option value="anão">Anão</option>
+                <option value="elfo">Elfo</option>
+                <option value="halfling">Halfling</option>
+                <option value="orc">Orc</option>
+                <option value="tiefling">Tiefling</option>
+                <option value="draconato">Draconato</option>
+            </select>
+        </div>
+
+        <button id="btnAtualizar" onclick="gerarFrase()">🔄 Atualizar</button>
+
+        <div class="frase-container">
+            <p id="frase" class="frase">Clique em "Atualizar" para gerar uma frase!</p>
+        </div>
+    </div>
+
+    <script src="js/frases.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
