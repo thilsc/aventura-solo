@@ -1,0 +1,2883 @@
+{
+  "characteristics": {
+    "hp": {
+      "current": 10,
+      "max": 10
+    },
+    "ht": {
+      "current": 10,
+      "max": 10
+    }
+  },
+  "pages": [
+    {
+      "id": "1",
+      "text": "Você é um jovem aventureiro no reino de Valdoria. Na taverna Javali Dourado, um mensageiro do Rei Aldric IV pede ajuda para recuperar o Coração de Aethros, roubado da capital. Se aceitar a missão, vá para 2. Se quiser fazer perguntas antes, vá para 3.",
+      "options": [
+        {
+          "id": "2",
+          "text": "Aceitar a missão do rei"
+        },
+        {
+          "id": "3",
+          "text": "Fazer perguntas ao mensageiro"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "O mensageiro sorri aliviado e entrega um selo real. Ele diz que a trilha leva à Floresta Sombria de Nargul. Se quiser partir imediatamente, vá para 4. Se quiser conversar com os frequentadores da taverna, vá para 5.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Partir agora"
+        },
+        {
+          "id": "5",
+          "text": "Conversar na taverna"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "O mensageiro explica que o artefato protege Valdoria de criaturas sombrias. Sem ele, monstros já rondam as estradas. Se perguntar sobre recompensa, vá para 6. Se perguntar sobre suspeitos, vá para 7.",
+      "options": [
+        {
+          "id": "6",
+          "text": "Perguntar sobre a recompensa"
+        },
+        {
+          "id": "7",
+          "text": "Perguntar sobre os suspeitos"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text": "Você deixa Brumavale pela estrada do leste. O vento traz o som de corvos e o cheiro de pinheiros. No caminho, há uma ponte antiga e uma trilha pela mata. Se atravessar a ponte, vá para 8. Se seguir pela mata, vá para 9.",
+      "options": [
+        {
+          "id": "8",
+          "text": "Atravessar a ponte"
+        },
+        {
+          "id": "9",
+          "text": "Seguir pela mata"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "text": "Na taverna, uma anã cozinheira, um bardo halfling e um caçador humano oferecem boatos. Se ouvir a cozinheira, vá para 10. Se ouvir o bardo, vá para 11. Se ouvir o caçador, vá para 12.",
+      "options": [
+        {
+          "id": "10",
+          "text": "Ouvir a cozinheira"
+        },
+        {
+          "id": "11",
+          "text": "Ouvir o bardo"
+        },
+        {
+          "id": "12",
+          "text": "Ouvir o caçador"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "text": "A recompensa será ouro, um título honorário e a gratidão do rei. O mensageiro também oferece um mapa simples. Se aceitar o mapa, vá para 13. Se dispensar o mapa e confiar na sorte, vá para 14.",
+      "options": [
+        {
+          "id": "13",
+          "text": "Aceitar o mapa"
+        },
+        {
+          "id": "14",
+          "text": "Dispensar o mapa"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "text": "Os suspeitos iniciais são goblins da floresta, mas o mensageiro desconfia que alguém mais inteligente os esteja guiando. Se prometer descobrir a verdade, vá para 2. Se quiser investigar a cidade primeiro, vá para 15.",
+      "options": [
+        {
+          "id": "2",
+          "text": "Prometer descobrir a verdade"
+        },
+        {
+          "id": "15",
+          "text": "Investigar a cidade"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "text": "A ponte range perigosamente. No meio dela, você vê tábuas quebradas e um saco preso nas cordas. Se correr para o outro lado, vá para 16. Se tentar pegar o saco, vá para 17.",
+      "options": [
+        {
+          "id": "16",
+          "text": "Correr até o outro lado"
+        },
+        {
+          "id": "17",
+          "text": "Pegar o saco"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "text": "A mata é silenciosa, mas você encontra pegadas pequenas e marcas de carroça. Logo avista fumaça ao longe. Se seguir as pegadas, vá para 18. Se seguir a fumaça, vá para 19.",
+      "options": [
+        {
+          "id": "18",
+          "text": "Seguir as pegadas"
+        },
+        {
+          "id": "19",
+          "text": "Seguir a fumaça"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "text": "A cozinheira diz que goblins gostam de roubar comida e objetos brilhantes, mas nunca roubavam artefatos sagrados. Ela lhe dá um pão de mel da sorte. Se guardar o pão, vá para 20. Se comê-lo agora, vá para 21.",
+      "options": [
+        {
+          "id": "20",
+          "text": "Guardar o pão"
+        },
+        {
+          "id": "21",
+          "text": "Comer o pão"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "text": "O bardo canta sobre ruínas antigas escondidas sob raízes gigantes em Nargul. Segundo a canção, ali dorme uma sombra que sussurra promessas de poder. Se acreditar na canção, vá para 22. Se rir dela e partir, vá para 4.",
+      "options": [
+        {
+          "id": "22",
+          "text": "Levar a canção a sério"
+        },
+        {
+          "id": "4",
+          "text": "Partir mesmo assim"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "text": "O caçador viu lobos da sombra correndo em direção ao norte. Ele diz que fogo espanta essas feras. Se comprar uma tocha, vá para 23. Se economizar moedas, vá para 24.",
+      "options": [
+        {
+          "id": "23",
+          "text": "Comprar uma tocha"
+        },
+        {
+          "id": "24",
+          "text": "Economizar moedas"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "O mapa mostra a estrada, a ponte, a mata e uma pedra em forma de coroa. Esse marco parece importante. Se seguir pela estrada, vá para 4. Se procurar a pedra em forma de coroa primeiro, vá para 25.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Seguir pela estrada"
+        },
+        {
+          "id": "25",
+          "text": "Procurar a pedra"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "text": "Sem mapa, você viaja por instinto. Isso torna tudo mais arriscado, mas a aventura parece mais emocionante. Se seguir a estrada principal, vá para 4. Se cortar caminho por campos vazios, vá para 26.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Estrada principal"
+        },
+        {
+          "id": "26",
+          "text": "Cortar caminho"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "Na cidade, um ferreiro, uma florista e um guarda real podem saber algo. Se falar com o ferreiro, vá para 27. Se falar com a florista, vá para 28. Se falar com o guarda, vá para 29.",
+      "options": [
+        {
+          "id": "27",
+          "text": "Falar com o ferreiro"
+        },
+        {
+          "id": "28",
+          "text": "Falar com a florista"
+        },
+        {
+          "id": "29",
+          "text": "Falar com o guarda"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "Você corre e a ponte balança, mas chega em segurança. Do outro lado, dois caminhos se separam perto de uma árvore oca. Se examinar a árvore, vá para 30. Se seguir sem parar, vá para 31.",
+      "options": [
+        {
+          "id": "30",
+          "text": "Examinar a árvore"
+        },
+        {
+          "id": "31",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "Dentro do saco há maçãs, uma corda curta e um apito de cobre. Um corvo observa tudo. Se pegar o apito, vá para 32. Se levar apenas as maçãs, vá para 33.",
+      "options": [
+        {
+          "id": "32",
+          "text": "Pegar o apito"
+        },
+        {
+          "id": "33",
+          "text": "Levar as maçãs"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "text": "As pegadas levam até uma clareira onde goblins discutem em volta de um barril. Eles ainda não o viram. Se se esconder e ouvir, vá para 34. Se avançar com coragem, vá para 35.",
+      "options": [
+        {
+          "id": "34",
+          "text": "Ouvir escondido"
+        },
+        {
+          "id": "35",
+          "text": "Avançar"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "text": "A fumaça vem de uma carroça tombada. Um mercador nervoso tenta apagar pequenas chamas. Se ajudá-lo, vá para 36. Se aproveitar para vasculhar a carga, vá para 37.",
+      "options": [
+        {
+          "id": "36",
+          "text": "Ajudar o mercador"
+        },
+        {
+          "id": "37",
+          "text": "Vasculhar a carga"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "Você guarda o pão de mel. Talvez ele anime alguém mais tarde. Agora é hora de partir. Vá para 4.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Continuar a aventura"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "text": "O pão é delicioso e lhe dá coragem. Você se sente pronto para a estrada. Vá para 4.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Continuar a aventura"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "text": "Você anota o verso sobre raízes gigantes e ruínas escondidas. Isso pode ajudar perto do fim da jornada. Vá para 4.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Seguir para a floresta"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "text": "A tocha ilumina o caminho e tranquiliza seu coração. Leve essa vantagem consigo. Vá para 4.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Partir"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "text": "Sem tocha, você depende da luz do dia. Talvez isso seja suficiente, talvez não. Vá para 4.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Partir"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "text": "Você encontra a pedra em forma de coroa e descobre um símbolo real gravado nela. Atrás da pedra há uma trilha secreta. Se segui-la, vá para 38. Se voltar à estrada, vá para 4.",
+      "options": [
+        {
+          "id": "38",
+          "text": "Seguir a trilha secreta"
+        },
+        {
+          "id": "4",
+          "text": "Voltar à estrada"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "text": "Nos campos vazios, espantalhos velhos parecem apontar para a floresta. O terreno é fofo e cheio de tocas. Se atravessar depressa, vá para 39. Se investigar as tocas, vá para 40.",
+      "options": [
+        {
+          "id": "39",
+          "text": "Atravessar depressa"
+        },
+        {
+          "id": "40",
+          "text": "Investigar"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "text": "O ferreiro diz que goblins roubaram ferraduras e pequenos sinos, mas recentemente passaram a buscar cristais. Ele lhe entrega um prego de ferro. Vá para 4.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Agradecer e partir"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "text": "A florista viu pétalas negras sopradas do norte, algo que nunca acontece naturalmente. Ela lhe dá um ramo de lavanda. Vá para 4.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Partir com a lavanda"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "text": "O guarda real revela que a sala do artefato não foi arrombada; alguém a abriu por dentro. Isso sugere traição ou magia. Vá para 4.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Refletir e partir"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "text": "Dentro da árvore oca há um rato falante chamado Nibo. Ele sabe atalhos em troca de um lanche. Se lhe der comida, vá para 41. Se ignorá-lo, vá para 31.",
+      "options": [
+        {
+          "id": "41",
+          "text": "Dar comida ao rato"
+        },
+        {
+          "id": "31",
+          "text": "Ignorá-lo"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "text": "A floresta se aproxima. A luz do sol diminui e o som das folhas fica mais estranho. Logo você verá os primeiros perigos de Nargul. Vá para 42.",
+      "options": [
+        {
+          "id": "42",
+          "text": "Entrar na floresta"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "text": "Você assopra o apito e um som agudo ecoa. Ao longe, algo responde. Melhor seguir com cuidado. Vá para 31.",
+      "options": [
+        {
+          "id": "31",
+          "text": "Seguir"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "As maçãs serão úteis se alguém estiver faminto. Você continua a viagem. Vá para 31.",
+      "options": [
+        {
+          "id": "31",
+          "text": "Seguir"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "text": "Os goblins falam de Grik, o Astuto, e de um homem das sombras nas ruínas. Eles temem a 'pedra brilhante'. Se continuar ouvindo, vá para 43. Se sair de fininho, vá para 44.",
+      "options": [
+        {
+          "id": "43",
+          "text": "Continuar ouvindo"
+        },
+        {
+          "id": "44",
+          "text": "Sair de fininho"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "Os goblins se assustam e apontam lanças improvisadas. Um deles tropeça no barril. Se tentar conversar, vá para 45. Se correr para assustá-los, vá para 46.",
+      "options": [
+        {
+          "id": "45",
+          "text": "Tentar conversar"
+        },
+        {
+          "id": "46",
+          "text": "Assustá-los"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "O mercador agradece e conta ter visto lobos de olhos roxos perto de um velho monólito. Ele lhe dá uma manta grossa. Vá para 31.",
+      "options": [
+        {
+          "id": "31",
+          "text": "Continuar"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "Na carga há panelas, tecido azul e uma pequena caixa trancada. O mercador grita ao perceber sua curiosidade. Se pedir desculpas, vá para 36. Se tentar abrir a caixa, vá para 47.",
+      "options": [
+        {
+          "id": "36",
+          "text": "Pedir desculpas"
+        },
+        {
+          "id": "47",
+          "text": "Abrir a caixa"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "A trilha secreta encurta o caminho, mas passa por pedras cobertas de musgo e símbolos antigos. Se tocar nos símbolos, vá para 48. Se passar sem tocar, vá para 49.",
+      "options": [
+        {
+          "id": "48",
+          "text": "Tocar nos símbolos"
+        },
+        {
+          "id": "49",
+          "text": "Passar sem tocar"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "Você cruza os campos, mas pisa numa toca e quase cai. Um coelho branco o observa. Se seguir o coelho, vá para 50. Se ignorá-lo, vá para 31.",
+      "options": [
+        {
+          "id": "50",
+          "text": "Seguir o coelho"
+        },
+        {
+          "id": "31",
+          "text": "Ignorar"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "Numa toca mais funda você encontra uma moeda velha de Valdoria e uma pena preta. Nada ameaça você aqui. Vá para 31.",
+      "options": [
+        {
+          "id": "31",
+          "text": "Continuar"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "Nibo fica feliz e mostra um atalho até um riacho brilhante. Segundo ele, o riacho leva ao coração da floresta. Vá para 51.",
+      "options": [
+        {
+          "id": "51",
+          "text": "Seguir Nibo"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "text": "Você entra em Nargul. Névoa rasteira cobre o chão e raízes se erguem como cobras dormindo. Logo encontra um riacho e uma trilha marcada com ossos de peixe. Se seguir o riacho, vá para 52. Se seguir a trilha, vá para 53.",
+      "options": [
+        {
+          "id": "52",
+          "text": "Seguir o riacho"
+        },
+        {
+          "id": "53",
+          "text": "Seguir a trilha"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "text": "Você descobre que Grik recebeu um colar escuro em troca de guardar o artefato. O homem das sombras prometeu ouro e poder. Vá para 44.",
+      "options": [
+        {
+          "id": "44",
+          "text": "Sair em silêncio"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "text": "Agora você sabe que há algo maior por trás do roubo. Adiante, uma coruja empoleirada observa a direção das ruínas. Se seguir a coruja, vá para 54. Se ir na direção do cheiro de sopa, vá para 55.",
+      "options": [
+        {
+          "id": "54",
+          "text": "Seguir a coruja"
+        },
+        {
+          "id": "55",
+          "text": "Ir até o cheiro de sopa"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "text": "Você levanta as mãos e fala com calma. Os goblins hesitam. Se oferecer comida, vá para 56. Se mencionar o nome de Grik, vá para 57.",
+      "options": [
+        {
+          "id": "56",
+          "text": "Oferecer comida"
+        },
+        {
+          "id": "57",
+          "text": "Mencionar Grik"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "text": "Você avança gritando e os goblins correm em pânico, deixando cair um mapa torto. Se pegar o mapa, vá para 58. Se persegui-los, vá para 59.",
+      "options": [
+        {
+          "id": "58",
+          "text": "Pegar o mapa"
+        },
+        {
+          "id": "59",
+          "text": "Perseguir"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "text": "A caixa contém um espelho de bolso encantado. Nele, por um instante, você vê ruínas e uma luz azul. Assustado, o mercador toma o espelho de volta. Vá para 36.",
+      "options": [
+        {
+          "id": "36",
+          "text": "Continuar"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "text": "Os símbolos brilham e mostram uma visão rápida do Coração de Aethros sobre um altar de pedra. Você aprende que luz pura enfraquece a sombra. Vá para 49.",
+      "options": [
+        {
+          "id": "49",
+          "text": "Seguir pela trilha"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "text": "A trilha secreta desemboca perto do riacho de Nargul. Você ouve água e, ao longe, tambores goblins. Vá para 52.",
+      "options": [
+        {
+          "id": "52",
+          "text": "Seguir"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "text": "O coelho leva você até um jardim escondido com flores azuis que brilham no escuro. Uma delas pode virar poção suave. Se colher uma flor, vá para 60. Se voltar ao caminho, vá para 31.",
+      "options": [
+        {
+          "id": "60",
+          "text": "Colher a flor"
+        },
+        {
+          "id": "31",
+          "text": "Voltar"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "text": "O atalho de Nibo o leva a uma ponte natural de raízes. Lá embaixo, o riacho reflete estrelas mesmo de dia. Se cruzar a ponte, vá para 61. Se descer até a água, vá para 62.",
+      "options": [
+        {
+          "id": "61",
+          "text": "Cruzar a ponte"
+        },
+        {
+          "id": "62",
+          "text": "Descer"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "text": "À beira do riacho, você encontra pedras lisas com runas simples. Logo escuta rosnados: lobos da sombra se aproximam. Se acender uma tocha ou usar luz, vá para 63. Se se esconder atrás das pedras, vá para 64.",
+      "options": [
+        {
+          "id": "63",
+          "text": "Usar luz"
+        },
+        {
+          "id": "64",
+          "text": "Esconder-se"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "text": "A trilha dos ossos leva a uma armadilha de rede entre duas árvores. Você a nota a tempo. Se desarmar a armadilha, vá para 65. Se deixar como está e contornar, vá para 66.",
+      "options": [
+        {
+          "id": "65",
+          "text": "Desarmar"
+        },
+        {
+          "id": "66",
+          "text": "Contornar"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "text": "A coruja pousa numa rocha onde há arranhões em forma de flechas apontando para ruínas antigas. Se seguir as flechas, vá para 67. Se procurar o acampamento goblin antes, vá para 55.",
+      "options": [
+        {
+          "id": "67",
+          "text": "Seguir as flechas"
+        },
+        {
+          "id": "55",
+          "text": "Ir ao acampamento"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "text": "Você avista o acampamento goblin. Barracas tortas cercam uma fogueira com sopa fumegante. Há guardas cochilando. Se se aproximar em silêncio, vá para 68. Se chamar por Grik, vá para 69.",
+      "options": [
+        {
+          "id": "68",
+          "text": "Aproximar em silêncio"
+        },
+        {
+          "id": "69",
+          "text": "Chamar por Grik"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "text": "Os goblins devoram a comida e ficam mais amigáveis. Um deles diz que Grik guarda o artefato apenas por medo do mago sombrio. Vá para 55.",
+      "options": [
+        {
+          "id": "55",
+          "text": "Ir ao acampamento"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "text": "Ao ouvir o nome de Grik, os goblins o encaram desconfiados, mas um deles admite que o chefe odeia Morgath em segredo. Vá para 55.",
+      "options": [
+        {
+          "id": "55",
+          "text": "Ir ao acampamento"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "text": "O mapa torto mostra a fogueira, o poço do acampamento e um túnel até as ruínas. Informação valiosa. Vá para 55.",
+      "options": [
+        {
+          "id": "55",
+          "text": "Avançar"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "text": "Na perseguição, você tropeça numa panela e faz barulho. Mais goblins aparecem. Se fugir, vá para 55. Se se render por um momento, vá para 70.",
+      "options": [
+        {
+          "id": "55",
+          "text": "Fugir para as sombras"
+        },
+        {
+          "id": "70",
+          "text": "Render-se"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "text": "A flor azul exala perfume fresco. Talvez cure cansaço ou medo. Você retorna animado. Vá para 31.",
+      "options": [
+        {
+          "id": "31",
+          "text": "Continuar"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "text": "Da ponte de raízes, você vê o topo de uma torre caída coberta por hera. Esse deve ser o caminho das ruínas. Vá para 67.",
+      "options": [
+        {
+          "id": "67",
+          "text": "Seguir para a torre"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "text": "Na água, você encontra um medalhão enferrujado com o brasão de Valdoria. Isso prova que pessoas do reino já estiveram ali. Vá para 52.",
+      "options": [
+        {
+          "id": "52",
+          "text": "Subir e continuar"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "text": "A luz afasta os lobos da sombra. Eles recuam rosnando e somem entre a névoa. Você encontra uma trilha segura. Vá para 71.",
+      "options": [
+        {
+          "id": "71",
+          "text": "Seguir a trilha segura"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "text": "Escondido, você vê três lobos cercando as pedras. Um deles fareja o ar, mas logo vai embora. Você escapa por pouco. Vá para 71.",
+      "options": [
+        {
+          "id": "71",
+          "text": "Escapar em silêncio"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "text": "Ao desarmar a rede, você encontra um sino preso a ela. Pode usá-lo para distrair alguém depois. Vá para 66.",
+      "options": [
+        {
+          "id": "66",
+          "text": "Continuar"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "text": "Contornando a armadilha, você chega a um círculo de cogumelos gigantes. O lugar parece mágico. Se atravessar pelo centro, vá para 72. Se andar pela borda, vá para 73.",
+      "options": [
+        {
+          "id": "72",
+          "text": "Atravessar pelo centro"
+        },
+        {
+          "id": "73",
+          "text": "Andar pela borda"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "text": "As flechas levam a um vale com ruínas cobertas por raízes, mas também a uma torre caída onde talvez haja pistas. Se explorar a torre, vá para 74. Se seguir direto às ruínas, vá para 75.",
+      "options": [
+        {
+          "id": "74",
+          "text": "Explorar a torre"
+        },
+        {
+          "id": "75",
+          "text": "Ir às ruínas"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "text": "Em silêncio, você escuta goblins comentando que Grik esconde a chave do túnel perto do poço. Se vasculhar o poço, vá para 76. Se tentar entrar na tenda de Grik, vá para 77.",
+      "options": [
+        {
+          "id": "76",
+          "text": "Vasculhar o poço"
+        },
+        {
+          "id": "77",
+          "text": "Entrar na tenda"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "text": "Grik sai da maior tenda com um chapéu de penas e uma colher de sopa na mão. Ele parece assustado, não cruel. Se negociar, vá para 78. Se acusá-lo de roubo, vá para 79.",
+      "options": [
+        {
+          "id": "78",
+          "text": "Negociar"
+        },
+        {
+          "id": "79",
+          "text": "Acusar"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "text": "Os goblins o amarram, mas discutem entre si e esquecem de apertar os nós. Se tentar escapar, vá para 80. Se esperar para ouvir mais, vá para 81.",
+      "options": [
+        {
+          "id": "80",
+          "text": "Escapar"
+        },
+        {
+          "id": "81",
+          "text": "Ouvir"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "text": "A trilha segura termina num pilar de pedra com inscrições sobre Aethros, guardião da luz. Você percebe que o artefato não é apenas um tesouro, mas uma promessa de proteção. Se prestar juramento de protegê-lo, vá para 82. Se apenas seguir adiante, vá para 83.",
+      "options": [
+        {
+          "id": "82",
+          "text": "Fazer o juramento"
+        },
+        {
+          "id": "83",
+          "text": "Seguir adiante"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "text": "No centro dos cogumelos, esporos dourados sobem como poeira brilhante. Você tem uma visão de crianças brincando em Brumavale sob a proteção do artefato. Vá para 73.",
+      "options": [
+        {
+          "id": "73",
+          "text": "Continuar"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "text": "Você deixa o círculo e encontra marcas de botas humanas. Alguém do reino esteve aqui recentemente. Vá para 67.",
+      "options": [
+        {
+          "id": "67",
+          "text": "Seguir as pistas"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "text": "Na torre caída, há um diário molhado de um antigo guardião. Ele fala de um portal que só abre com sombra e ambição. Se ler mais, vá para 84. Se guardar o diário e seguir, vá para 75.",
+      "options": [
+        {
+          "id": "84",
+          "text": "Ler o diário"
+        },
+        {
+          "id": "75",
+          "text": "Seguir para as ruínas"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "text": "As ruínas de Nargul surgem enormes entre raízes retorcidas. Uma porta rachada leva para dentro, mas um túnel lateral parece mais discreto. Se usar a porta principal, vá para 85. Se usar o túnel lateral, vá para 86.",
+      "options": [
+        {
+          "id": "85",
+          "text": "Porta principal"
+        },
+        {
+          "id": "86",
+          "text": "Túnel lateral"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "text": "No poço você encontra um balde, água escura e uma chave de bronze presa por barbante. Com cuidado, você a puxa. Vá para 77.",
+      "options": [
+        {
+          "id": "77",
+          "text": "Ir à tenda de Grik"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "text": "Na tenda de Grik há panelas, panos, colheres e um baú pequeno. Também há um desenho infantil do Coração de Aethros brilhando. Se abrir o baú, vá para 87. Se examinar o desenho, vá para 88.",
+      "options": [
+        {
+          "id": "87",
+          "text": "Abrir o baú"
+        },
+        {
+          "id": "88",
+          "text": "Examinar o desenho"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "text": "Grik admite o roubo, mas diz que Morgath ameaçou transformar todos os goblins em sombras obedientes. Se oferecer ajuda a Grik, vá para 89. Se exigir o artefato imediatamente, vá para 90.",
+      "options": [
+        {
+          "id": "89",
+          "text": "Oferecer ajuda"
+        },
+        {
+          "id": "90",
+          "text": "Exigir o artefato"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "text": "Grik se ofende e chama dois guardas, mas também parece pronto para chorar. Se recuar e falar com calma, vá para 78. Se continuar pressionando, vá para 91.",
+      "options": [
+        {
+          "id": "78",
+          "text": "Falar com calma"
+        },
+        {
+          "id": "91",
+          "text": "Continuar pressionando"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "text": "Você escapa dos nós e se esconde atrás de barris. Pode correr para o poço ou para a tenda. Se ir ao poço, vá para 76. Se ir à tenda, vá para 77.",
+      "options": [
+        {
+          "id": "76",
+          "text": "Ir ao poço"
+        },
+        {
+          "id": "77",
+          "text": "Ir à tenda"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "text": "Você ouve que Morgath espera por Grik antes do anoitecer nas ruínas. Também descobre a palavra 'Lumina' gravada na chave. Vá para 80.",
+      "options": [
+        {
+          "id": "80",
+          "text": "Escapar agora"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "text": "Ao fazer o juramento, o pilar emite um brilho suave. Você se sente digno da missão. Se continuar, vá para 83.",
+      "options": [
+        {
+          "id": "83",
+          "text": "Continuar"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "text": "Você vê degraus de pedra descendo sob as raízes. O ar fica frio. Há cheiro de poeira e magia antiga. Vá para 75.",
+      "options": [
+        {
+          "id": "75",
+          "text": "Entrar nas ruínas"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "text": "O diário conta que um mago chamado Morgath foi expulso por querer usar o Coração de Aethros para abrir um portal de sombra. Agora tudo faz sentido. Vá para 75.",
+      "options": [
+        {
+          "id": "75",
+          "text": "Descer às ruínas"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "text": "Ao abrir a porta principal, ecos correm pelos corredores. Estátuas rachadas seguram lanternas apagadas. Se acender uma lanterna, vá para 92. Se avançar no escuro, vá para 93.",
+      "options": [
+        {
+          "id": "92",
+          "text": "Acender a lanterna"
+        },
+        {
+          "id": "93",
+          "text": "Avançar no escuro"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "text": "O túnel lateral é baixo e úmido, mas evita atenção. Você encontra bifurcação: uma subida para a biblioteca antiga e outra descida para a câmara do altar. Se subir, vá para 94. Se descer, vá para 95.",
+      "options": [
+        {
+          "id": "94",
+          "text": "Ir à biblioteca"
+        },
+        {
+          "id": "95",
+          "text": "Descer à câmara"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "text": "No baú há uma capa curta, uma colher de prata e um pingente de vidro azul. Nada do artefato. Mas a capa pode ajudar a se esconder. Vá para 88.",
+      "options": [
+        {
+          "id": "88",
+          "text": "Examinar o desenho"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "text": "O desenho mostra Grik olhando com medo para um homem alto envolto em fumaça preta. Atrás deles há três pedras em arco. Isso parece a entrada do altar. Vá para 89.",
+      "options": [
+        {
+          "id": "89",
+          "text": "Tentar convencer Grik"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "text": "Grik aceita ajudar se você prometer libertar seu povo da influência de Morgath. Ele dá a chave marcada com 'Lumina'. Se seguir com Grik ao túnel, vá para 96. Se pedir que ele distraia os guardas, vá para 97.",
+      "options": [
+        {
+          "id": "96",
+          "text": "Ir com Grik"
+        },
+        {
+          "id": "97",
+          "text": "Pedir distração"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "text": "Grik treme e confessa que o artefato já está nas ruínas. Ele não o tem mais. Se levá-lo junto como guia, vá para 96. Se mandá-lo embora, vá para 75.",
+      "options": [
+        {
+          "id": "96",
+          "text": "Levá-lo como guia"
+        },
+        {
+          "id": "75",
+          "text": "Ir sozinho"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "text": "Os guardas cercam você com colheres, facas de madeira e coragem duvidosa. Grik grita para pararem. No fim, ele ainda revela o túnel, mas desconfia de você. Vá para 75.",
+      "options": [
+        {
+          "id": "75",
+          "text": "Seguir para as ruínas"
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "text": "A lanterna ilumina murais de reis antigos protegendo uma joia luminosa. Um dos murais tem uma pedra solta. Se examinar a pedra, vá para 98. Se seguir pelo corredor maior, vá para 99.",
+      "options": [
+        {
+          "id": "98",
+          "text": "Examinar a pedra"
+        },
+        {
+          "id": "99",
+          "text": "Seguir"
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "text": "No escuro você quase cai num fosso raso. Felizmente consegue se segurar. Há uma escada estreita ao lado. Vá para 99.",
+      "options": [
+        {
+          "id": "99",
+          "text": "Continuar"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "text": "Na biblioteca antiga, estantes tombadas escondem pergaminhos. Uma coroa de ferro enferrujada está sobre uma mesa. Se ler os pergaminhos, vá para 100. Se ignorar tudo e seguir, vá para 95.",
+      "options": [
+        {
+          "id": "100",
+          "text": "Ler os pergaminhos"
+        },
+        {
+          "id": "95",
+          "text": "Descer"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "text": "Você chega a um corredor circular com três portas: sol, lua e estrela. Cada uma traz um símbolo reluzente. Se abrir a porta do sol, vá para 101. Se abrir a da lua, vá para 102. Se abrir a da estrela, vá para 103.",
+      "options": [
+        {
+          "id": "101",
+          "text": "Porta do sol"
+        },
+        {
+          "id": "102",
+          "text": "Porta da lua"
+        },
+        {
+          "id": "103",
+          "text": "Porta da estrela"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "text": "Com Grik ao lado, os goblins não atacam. Ele aponta um caminho secreto sob as panelas velhas e mostra onde Morgath costuma aparecer. Vá para 86.",
+      "options": [
+        {
+          "id": "86",
+          "text": "Entrar pelo túnel lateral"
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "text": "Grik derruba um caldeirão e todos correm para apagar a sopa derramada. Você aproveita e escapa para as ruínas. Vá para 75.",
+      "options": [
+        {
+          "id": "75",
+          "text": "Correr às ruínas"
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "text": "Atrás da pedra solta há um cristal que emite luz quente. Pode ser útil contra magia sombria. Se pegá-lo, vá para 99. Se deixá-lo, vá para 99.",
+      "options": [
+        {
+          "id": "99",
+          "text": "Seguir com o cristal"
+        },
+        {
+          "id": "99",
+          "text": "Seguir sem o cristal"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "text": "O corredor termina numa sala de eco, onde qualquer palavra soa duas vezes. Uma voz distante diz 'venha'. Se responder, vá para 104. Se permanecer em silêncio, vá para 105.",
+      "options": [
+        {
+          "id": "104",
+          "text": "Responder"
+        },
+        {
+          "id": "105",
+          "text": "Ficar em silêncio"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "text": "Os pergaminhos revelam que a palavra 'Lumina' sela portas de sombra, enquanto a ambição as abre. Você memoriza isso. Vá para 95.",
+      "options": [
+        {
+          "id": "95",
+          "text": "Seguir"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "text": "A sala do sol contém espelhos dourados e uma fonte seca. No fundo, uma escadaria sobe a uma sacada. Se subir, vá para 106. Se examinar os espelhos, vá para 107.",
+      "options": [
+        {
+          "id": "106",
+          "text": "Subir à sacada"
+        },
+        {
+          "id": "107",
+          "text": "Examinar os espelhos"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "text": "A sala da lua é fria e prateada. Um lago raso ocupa o centro, refletindo um céu que não existe. Se tocar a água, vá para 108. Se seguir pela ponte estreita, vá para 109.",
+      "options": [
+        {
+          "id": "108",
+          "text": "Tocar a água"
+        },
+        {
+          "id": "109",
+          "text": "Seguir pela ponte"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "text": "A sala da estrela está cheia de pontos de luz no teto. No chão, marcas formam um mapa do reino. Se seguir até Valdoria no mapa, vá para 110. Se buscar Nargul no mapa, vá para 111.",
+      "options": [
+        {
+          "id": "110",
+          "text": "Tocar Valdoria"
+        },
+        {
+          "id": "111",
+          "text": "Tocar Nargul"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 104. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 105. Se seguir com bravura, vá para 106.",
+      "options": [
+        {
+          "id": "105",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "106",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 105. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 106. Se seguir com bravura, vá para 107.",
+      "options": [
+        {
+          "id": "106",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "107",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 106. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 107. Se seguir com bravura, vá para 108.",
+      "options": [
+        {
+          "id": "107",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "108",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 107. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 108. Se seguir com bravura, vá para 109.",
+      "options": [
+        {
+          "id": "108",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "109",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 108. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 109. Se seguir com bravura, vá para 110.",
+      "options": [
+        {
+          "id": "109",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "110",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 109. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 110. Se seguir com bravura, vá para 111.",
+      "options": [
+        {
+          "id": "110",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "111",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 110. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 111. Se seguir com bravura, vá para 112.",
+      "options": [
+        {
+          "id": "111",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "112",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 111. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 112. Se seguir com bravura, vá para 113.",
+      "options": [
+        {
+          "id": "112",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "113",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 112. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 113. Se seguir com bravura, vá para 114.",
+      "options": [
+        {
+          "id": "113",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "114",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 113. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 114. Se seguir com bravura, vá para 115.",
+      "options": [
+        {
+          "id": "114",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "115",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 114. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 115. Se seguir com bravura, vá para 116.",
+      "options": [
+        {
+          "id": "115",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "116",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 115. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 116. Se seguir com bravura, vá para 117.",
+      "options": [
+        {
+          "id": "116",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "117",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 116. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 117. Se seguir com bravura, vá para 118.",
+      "options": [
+        {
+          "id": "117",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "118",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 117. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 118. Se seguir com bravura, vá para 119.",
+      "options": [
+        {
+          "id": "118",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "119",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 118. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 119. Se seguir com bravura, vá para 120.",
+      "options": [
+        {
+          "id": "119",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "120",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 119. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 120. Se seguir com bravura, vá para 121.",
+      "options": [
+        {
+          "id": "120",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "121",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 120. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 121. Se seguir com bravura, vá para 122.",
+      "options": [
+        {
+          "id": "121",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "122",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 121. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 122. Se seguir com bravura, vá para 123.",
+      "options": [
+        {
+          "id": "122",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "123",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 122. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 123. Se seguir com bravura, vá para 124.",
+      "options": [
+        {
+          "id": "123",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "124",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 123. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 124. Se seguir com bravura, vá para 125.",
+      "options": [
+        {
+          "id": "124",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "125",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 124. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 125. Se seguir com bravura, vá para 126.",
+      "options": [
+        {
+          "id": "125",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "126",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 125. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 126. Se seguir com bravura, vá para 127.",
+      "options": [
+        {
+          "id": "126",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "127",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 126. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 127. Se seguir com bravura, vá para 128.",
+      "options": [
+        {
+          "id": "127",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "128",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 127. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 128. Se seguir com bravura, vá para 129.",
+      "options": [
+        {
+          "id": "128",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "129",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 128. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 129. Se seguir com bravura, vá para 130.",
+      "options": [
+        {
+          "id": "129",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "130",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 129. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 130. Se seguir com bravura, vá para 131.",
+      "options": [
+        {
+          "id": "130",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "131",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 130. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 131. Se seguir com bravura, vá para 132.",
+      "options": [
+        {
+          "id": "131",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "132",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 131. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 132. Se seguir com bravura, vá para 133.",
+      "options": [
+        {
+          "id": "132",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "133",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 132. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 133. Se seguir com bravura, vá para 134.",
+      "options": [
+        {
+          "id": "133",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "134",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 133. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 134. Se seguir com bravura, vá para 135.",
+      "options": [
+        {
+          "id": "134",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "135",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 134. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 135. Se seguir com bravura, vá para 136.",
+      "options": [
+        {
+          "id": "135",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "136",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 135. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 136. Se seguir com bravura, vá para 137.",
+      "options": [
+        {
+          "id": "136",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "137",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 136. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 137. Se seguir com bravura, vá para 138.",
+      "options": [
+        {
+          "id": "137",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "138",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 137. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 138. Se seguir com bravura, vá para 139.",
+      "options": [
+        {
+          "id": "138",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "139",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 138. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 139. Se seguir com bravura, vá para 140.",
+      "options": [
+        {
+          "id": "139",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "140",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 139. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 140. Se seguir com bravura, vá para 141.",
+      "options": [
+        {
+          "id": "140",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "141",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 140. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 141. Se seguir com bravura, vá para 142.",
+      "options": [
+        {
+          "id": "141",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "142",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 141. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 142. Se seguir com bravura, vá para 143.",
+      "options": [
+        {
+          "id": "142",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "143",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 142. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 143. Se seguir com bravura, vá para 144.",
+      "options": [
+        {
+          "id": "143",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "144",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 143. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 144. Se seguir com bravura, vá para 145.",
+      "options": [
+        {
+          "id": "144",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "145",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 144. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 145. Se seguir com bravura, vá para 146.",
+      "options": [
+        {
+          "id": "145",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "146",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 145. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 146. Se seguir com bravura, vá para 147.",
+      "options": [
+        {
+          "id": "146",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "147",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 146. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 147. Se seguir com bravura, vá para 148.",
+      "options": [
+        {
+          "id": "147",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "148",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 147. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 148. Se seguir com bravura, vá para 149.",
+      "options": [
+        {
+          "id": "148",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "149",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 148. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 149. Se seguir com bravura, vá para 150.",
+      "options": [
+        {
+          "id": "149",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "150",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 149. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 150. Se seguir com bravura, vá para 151.",
+      "options": [
+        {
+          "id": "150",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "151",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 150. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 151. Se seguir com bravura, vá para 152.",
+      "options": [
+        {
+          "id": "151",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "152",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 151. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 152. Se seguir com bravura, vá para 153.",
+      "options": [
+        {
+          "id": "152",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "153",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 152. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 153. Se seguir com bravura, vá para 154.",
+      "options": [
+        {
+          "id": "153",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "154",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 153. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 154. Se seguir com bravura, vá para 155.",
+      "options": [
+        {
+          "id": "154",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "155",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 154. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 155. Se seguir com bravura, vá para 156.",
+      "options": [
+        {
+          "id": "155",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "156",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 155. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 156. Se seguir com bravura, vá para 157.",
+      "options": [
+        {
+          "id": "156",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "157",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 156. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 157. Se seguir com bravura, vá para 158.",
+      "options": [
+        {
+          "id": "157",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "158",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 157. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 158. Se seguir com bravura, vá para 159.",
+      "options": [
+        {
+          "id": "158",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "159",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 158. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 159. Se seguir com bravura, vá para 160.",
+      "options": [
+        {
+          "id": "159",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "160",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 159. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 160. Se seguir com bravura, vá para 161.",
+      "options": [
+        {
+          "id": "160",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "161",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 160. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 161. Se seguir com bravura, vá para 162.",
+      "options": [
+        {
+          "id": "161",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "162",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 161. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 162. Se seguir com bravura, vá para 163.",
+      "options": [
+        {
+          "id": "162",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "163",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 162. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 163. Se seguir com bravura, vá para 164.",
+      "options": [
+        {
+          "id": "163",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "164",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 163. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 164. Se seguir com bravura, vá para 165.",
+      "options": [
+        {
+          "id": "164",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "165",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 164. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 165. Se seguir com bravura, vá para 166.",
+      "options": [
+        {
+          "id": "165",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "166",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 165. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 166. Se seguir com bravura, vá para 167.",
+      "options": [
+        {
+          "id": "166",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "167",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 166. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 167. Se seguir com bravura, vá para 168.",
+      "options": [
+        {
+          "id": "167",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "168",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "167",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 167. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 168. Se seguir com bravura, vá para 169.",
+      "options": [
+        {
+          "id": "168",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "169",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 168. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 169. Se seguir com bravura, vá para 170.",
+      "options": [
+        {
+          "id": "169",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "170",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "169",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 169. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 170. Se seguir com bravura, vá para 171.",
+      "options": [
+        {
+          "id": "170",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "171",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 170. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 171. Se seguir com bravura, vá para 172.",
+      "options": [
+        {
+          "id": "171",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "172",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 171. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 172. Se seguir com bravura, vá para 173.",
+      "options": [
+        {
+          "id": "172",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "173",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 172. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 173. Se seguir com bravura, vá para 174.",
+      "options": [
+        {
+          "id": "173",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "174",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 173. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 174. Se seguir com bravura, vá para 175.",
+      "options": [
+        {
+          "id": "174",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "175",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 174. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 175. Se seguir com bravura, vá para 176.",
+      "options": [
+        {
+          "id": "175",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "176",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 175. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 176. Se seguir com bravura, vá para 177.",
+      "options": [
+        {
+          "id": "176",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "177",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 176. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 177. Se seguir com bravura, vá para 178.",
+      "options": [
+        {
+          "id": "177",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "178",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 177. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 178. Se seguir com bravura, vá para 179.",
+      "options": [
+        {
+          "id": "178",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "179",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 178. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 179. Se seguir com bravura, vá para 180.",
+      "options": [
+        {
+          "id": "179",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "180",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 179. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 180. Se seguir com bravura, vá para 181.",
+      "options": [
+        {
+          "id": "180",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "181",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 180. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 181. Se seguir com bravura, vá para 182.",
+      "options": [
+        {
+          "id": "181",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "182",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 181. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 182. Se seguir com bravura, vá para 183.",
+      "options": [
+        {
+          "id": "182",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "183",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 182. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 183. Se seguir com bravura, vá para 184.",
+      "options": [
+        {
+          "id": "183",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "184",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 183. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 184. Se seguir com bravura, vá para 185.",
+      "options": [
+        {
+          "id": "184",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "185",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "184",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 184. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 185. Se seguir com bravura, vá para 186.",
+      "options": [
+        {
+          "id": "185",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "186",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "185",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 185. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 186. Se seguir com bravura, vá para 187.",
+      "options": [
+        {
+          "id": "186",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "187",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "186",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 186. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 187. Se seguir com bravura, vá para 188.",
+      "options": [
+        {
+          "id": "187",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "188",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 187. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 188. Se seguir com bravura, vá para 189.",
+      "options": [
+        {
+          "id": "188",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "189",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 188. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 189. Se seguir com bravura, vá para 190.",
+      "options": [
+        {
+          "id": "189",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "190",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 189. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 190. Se seguir com bravura, vá para 191.",
+      "options": [
+        {
+          "id": "190",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "191",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 190. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 191. Se seguir com bravura, vá para 192.",
+      "options": [
+        {
+          "id": "191",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "192",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "191",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 191. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 192. Se seguir com bravura, vá para 193.",
+      "options": [
+        {
+          "id": "192",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "193",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "192",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 192. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 193. Se seguir com bravura, vá para 194.",
+      "options": [
+        {
+          "id": "193",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "194",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 193. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 194. Se seguir com bravura, vá para 195.",
+      "options": [
+        {
+          "id": "194",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "195",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 194. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 195. Se seguir com bravura, vá para 196.",
+      "options": [
+        {
+          "id": "195",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "196",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "195",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 195. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 196. Se seguir com bravura, vá para 197.",
+      "options": [
+        {
+          "id": "196",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "197",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "196",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 196. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 197. Se seguir com bravura, vá para 198.",
+      "options": [
+        {
+          "id": "197",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "198",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "197",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 197. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 198. Se seguir com bravura, vá para 199.",
+      "options": [
+        {
+          "id": "198",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "199",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 198. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 199. Se seguir com bravura, vá para 200.",
+      "options": [
+        {
+          "id": "199",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "200",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "199",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 199. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 200. Se seguir com bravura, vá para 201.",
+      "options": [
+        {
+          "id": "200",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "201",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 200. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 201. Se seguir com bravura, vá para 202.",
+      "options": [
+        {
+          "id": "201",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "202",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 201. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 202. Se seguir com bravura, vá para 203.",
+      "options": [
+        {
+          "id": "202",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "203",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 202. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 203. Se seguir com bravura, vá para 204.",
+      "options": [
+        {
+          "id": "203",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "204",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 203. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 204. Se seguir com bravura, vá para 205.",
+      "options": [
+        {
+          "id": "204",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "205",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 204. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 205. Se seguir com bravura, vá para 206.",
+      "options": [
+        {
+          "id": "205",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "206",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 205. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 206. Se seguir com bravura, vá para 207.",
+      "options": [
+        {
+          "id": "206",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "207",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "206",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 206. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 207. Se seguir com bravura, vá para 208.",
+      "options": [
+        {
+          "id": "207",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "208",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "207",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 207. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 208. Se seguir com bravura, vá para 209.",
+      "options": [
+        {
+          "id": "208",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "209",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "208",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 208. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 209. Se seguir com bravura, vá para 210.",
+      "options": [
+        {
+          "id": "209",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "210",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "text": "Você avança pela aventura em Valdoria e encontra um novo desafio no trecho 209. Há pistas sobre Morgath, o Coração de Aethros e o destino dos goblins. Se agir com cautela, vá para 210. Se seguir com bravura, vá para 211.",
+      "options": [
+        {
+          "id": "210",
+          "text": "Agir com cautela"
+        },
+        {
+          "id": "211",
+          "text": "Seguir com bravura"
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "text": "Este é um dos desfechos da jornada em Valdoria, no trecho 210. Você está cada vez mais perto de decidir o destino do reino, dos goblins e do Coração de Aethros.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Seguir para o final"
+        }
+      ]
+    },
+    {
+      "id": "211",
+      "text": "Este é um dos desfechos da jornada em Valdoria, no trecho 211. Você está cada vez mais perto de decidir o destino do reino, dos goblins e do Coração de Aethros.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Seguir para o final"
+        }
+      ]
+    },
+    {
+      "id": "212",
+      "text": "Este é um dos desfechos da jornada em Valdoria, no trecho 212. Você está cada vez mais perto de decidir o destino do reino, dos goblins e do Coração de Aethros.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Seguir para o final"
+        }
+      ]
+    },
+    {
+      "id": "213",
+      "text": "Este é um dos desfechos da jornada em Valdoria, no trecho 213. Você está cada vez mais perto de decidir o destino do reino, dos goblins e do Coração de Aethros.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Seguir para o final"
+        }
+      ]
+    },
+    {
+      "id": "214",
+      "text": "Este é um dos desfechos da jornada em Valdoria, no trecho 214. Você está cada vez mais perto de decidir o destino do reino, dos goblins e do Coração de Aethros.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Seguir para o final"
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "text": "Este é um dos desfechos da jornada em Valdoria, no trecho 215. Você está cada vez mais perto de decidir o destino do reino, dos goblins e do Coração de Aethros.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Seguir para o final"
+        }
+      ]
+    },
+    {
+      "id": "216",
+      "text": "Este é um dos desfechos da jornada em Valdoria, no trecho 216. Você está cada vez mais perto de decidir o destino do reino, dos goblins e do Coração de Aethros.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Seguir para o final"
+        }
+      ]
+    },
+    {
+      "id": "217",
+      "text": "Este é um dos desfechos da jornada em Valdoria, no trecho 217. Você está cada vez mais perto de decidir o destino do reino, dos goblins e do Coração de Aethros.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Seguir para o final"
+        }
+      ]
+    },
+    {
+      "id": "218",
+      "text": "Final heroico: você derrota Morgath, recupera o Coração de Aethros e devolve a luz a Valdoria. O Rei Aldric IV recebe os heróis com honra, e Grik promete manter seu povo longe da sombra.",
+      "options": []
+    },
+    {
+      "id": "219",
+      "text": "Final pacífico: você convence Grik e os goblins a se voltarem contra Morgath. Juntos, vocês selam o portal com a palavra Lumina e salvam o reino sem uma grande batalha.",
+      "options": []
+    },
+    {
+      "id": "220",
+      "text": "Final lendário: o Coração de Aethros brilha como um pequeno sol, Morgath é vencido e as ruínas antigas voltam a dormir. Em Brumavale, sua história vira canção de taverna para crianças e aventureiros.",
+      "options": []
+    }
+  ]
+}

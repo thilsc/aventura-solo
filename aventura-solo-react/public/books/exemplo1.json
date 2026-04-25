@@ -1,0 +1,29 @@
+{
+  "characteristics": {
+    "hp": { "current": 10, "max": 10 },
+    "ht": { "current": 10, "max": 10 }
+  },
+  "pages": [
+    {
+      "id": "1",
+      "text": "Você está em um corredor escuro. O que você faz?",
+      "options": [
+        { "id": "2", "text": "Ir para a esquerda" },
+        { "id": "2", "text": "Ir para a direita" }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "Você encontrou uma sala com uma porta trancada. O que você faz?",
+      "options": [
+        { "id": "3", "text": "Procurar uma chave" },
+        { "id": "3", "text": "Tentar arrombar a porta" }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "Você encontrou a saída! Parabéns, aventureiro!",
+      "options": []
+    }
+  ]
+}

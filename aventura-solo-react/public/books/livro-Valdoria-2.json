@@ -1,0 +1,3061 @@
+{
+  "characteristics": {
+    "coragem": {
+      "current": 10,
+      "max": 15
+    },
+    "sabedoria": {
+      "current": 10,
+      "max": 15
+    },
+    "amizade": {
+      "current": 0,
+      "max": 10
+    }
+  },
+  "pages": [
+    {
+      "id": "1",
+      "text": "Na taverna Javali Dourado, um mensageiro do Rei Aldric IV chega apressado: 'Crianças estão sumindo de Brumavale! Deixam apenas bonecos de palha!' Se aceitar investigar, vá para 2. Se perguntar mais, vá para 3.",
+      "options": [
+        {
+          "id": "2",
+          "text": "Aceitar missão"
+        },
+        {
+          "id": "3",
+          "text": "Perguntar detalhes"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "O mensageiro entrega um distintivo. 'Comece pelo bairro dos artesãos.' Você sai para a noite de Brumavale. Vá para 15.",
+      "options": [
+        {
+          "id": "15",
+          "text": "Ir ao bairro"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "São 5 crianças. Somem à noite. Deixam bonecos de palha. Se ir ao bairro, vá para 15. Se visitar o castelo, vá para 4.",
+      "options": [
+        {
+          "id": "15",
+          "text": "Ir ao bairro"
+        },
+        {
+          "id": "4",
+          "text": "Ir ao castelo"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text": "O Rei Aldric está preocupado. 'Minha sobrinha Lira sumiu também.' Ele lhe dá uma flauta de prata. Vá para 15.",
+      "options": [
+        {
+          "id": "15",
+          "text": "Ir ao bairro com flauta"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "Mães choram com bonecos de palha. Uma lhe dá o boneco de Milo. Se examinar, vá para 16. Se perguntar sobre a noite, vá para 17.",
+      "options": [
+        {
+          "id": "16",
+          "text": "Examinar boneco"
+        },
+        {
+          "id": "17",
+          "text": "Perguntar sobre noite"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "O boneco sussurra 'Floresta... cantiga...' Teste Sabedoria (12+): sucesso=18, falha=19.",
+      "options": [
+        {
+          "id": "18",
+          "text": "Entender sussurro"
+        },
+        {
+          "id": "19",
+          "text": "Não entender"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "Elas ouviram cantiga da Floresta de Nargul. Um garoto viu olhos no beco. Se ir ao beco, vá para 20. Se ir à floresta, vá para 45.",
+      "options": [
+        {
+          "id": "20",
+          "text": "Beco"
+        },
+        {
+          "id": "45",
+          "text": "Floresta"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "text": "A floresta chama crianças. +2 Sabedoria. Vá para 20.",
+      "options": [
+        {
+          "id": "20",
+          "text": "Ir ao beco"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "text": "Sussurro assusta, mas dá coragem (+1 Coragem). Vá para 20.",
+      "options": [
+        {
+          "id": "20",
+          "text": "Ir ao beco"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "No beco, Grik (goblin) treme: 'A Sombra Cantante leva crianças! Me ajuda!' Se confiar, vá para 21. Se ameaçar, vá para 22.",
+      "options": [
+        {
+          "id": "21",
+          "text": "Confiar (+1 Amizade)"
+        },
+        {
+          "id": "22",
+          "text": "Ameaçá-lo"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "text": "Grik revela casa abandonada na floresta. +2 Amizade goblins. Vá para 45.",
+      "options": [
+        {
+          "id": "45",
+          "text": "Ir com Grik"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "text": "Grik revela o mesmo, mas foge assustado. Vá para 45.",
+      "options": [
+        {
+          "id": "45",
+          "text": "Ir sozinho"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "text": "Casa torta na floresta sussurra cantigas. Se bater na porta, vá para 46. Se espiar janela, vá para 47.",
+      "options": [
+        {
+          "id": "46",
+          "text": "Bater"
+        },
+        {
+          "id": "47",
+          "text": "Espiar"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "text": "Uma voz infantil: 'Entre, amigo...' Teste Coragem (12+): sucesso=48, falha=49.",
+      "options": [
+        {
+          "id": "48",
+          "text": "Entrar"
+        },
+        {
+          "id": "49",
+          "text": "Hesitar"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "text": "Vê sombras dançando com crianças imóveis. Bonecos se mexem sozinhos. Vá para 50.",
+      "options": [
+        {
+          "id": "50",
+          "text": "Tentar resgatar"
+        }
+      ]
+    },
+    {
+      "id": "220",
+      "text": "FINAL LENDÁRIO: Você toca a flauta e as crianças cantam junto. A Sombra Cantante se dissolve em luz. Valdoria celebra seus heróis por gerações!",
+      "options": []
+    },
+    {
+      "id": "17",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 16: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 17. Falha: 18.",
+      "options": [
+        {
+          "id": "17",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "18",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 17: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 18. Falha: 19.",
+      "options": [
+        {
+          "id": "18",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "19",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 18: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 19. Falha: 20.",
+      "options": [
+        {
+          "id": "19",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "20",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 19: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 20. Falha: 21.",
+      "options": [
+        {
+          "id": "20",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "21",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 20: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 21. Falha: 22.",
+      "options": [
+        {
+          "id": "21",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "22",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 21: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 22. Falha: 23.",
+      "options": [
+        {
+          "id": "22",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "23",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 22: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 23. Falha: 24.",
+      "options": [
+        {
+          "id": "23",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "24",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 23: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 24. Falha: 25.",
+      "options": [
+        {
+          "id": "24",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "25",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 24: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 25. Falha: 26.",
+      "options": [
+        {
+          "id": "25",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "26",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 25: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 26. Falha: 27.",
+      "options": [
+        {
+          "id": "26",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "27",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 26: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 27. Falha: 28.",
+      "options": [
+        {
+          "id": "27",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "28",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 27: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 28. Falha: 29.",
+      "options": [
+        {
+          "id": "28",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "29",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 28: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 29. Falha: 30.",
+      "options": [
+        {
+          "id": "29",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "30",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 29: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 30. Falha: 31.",
+      "options": [
+        {
+          "id": "30",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "31",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 30: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 31. Falha: 32.",
+      "options": [
+        {
+          "id": "31",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "32",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 31: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 32. Falha: 33.",
+      "options": [
+        {
+          "id": "32",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "33",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 32: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 33. Falha: 34.",
+      "options": [
+        {
+          "id": "33",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "34",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 33: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 34. Falha: 35.",
+      "options": [
+        {
+          "id": "34",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "35",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 34: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 35. Falha: 36.",
+      "options": [
+        {
+          "id": "35",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "36",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 35: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 36. Falha: 37.",
+      "options": [
+        {
+          "id": "36",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "37",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 36: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 37. Falha: 38.",
+      "options": [
+        {
+          "id": "37",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "38",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 37: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 38. Falha: 39.",
+      "options": [
+        {
+          "id": "38",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "39",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 38: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 39. Falha: 40.",
+      "options": [
+        {
+          "id": "39",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "40",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 39: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 40. Falha: 41.",
+      "options": [
+        {
+          "id": "40",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "41",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 40: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 41. Falha: 42.",
+      "options": [
+        {
+          "id": "41",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "42",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 41: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 42. Falha: 43.",
+      "options": [
+        {
+          "id": "42",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "43",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 42: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 43. Falha: 44.",
+      "options": [
+        {
+          "id": "43",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "44",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 43: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 44. Falha: 45.",
+      "options": [
+        {
+          "id": "44",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "45",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 44: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 45. Falha: 46.",
+      "options": [
+        {
+          "id": "45",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "46",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 45: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 46. Falha: 47.",
+      "options": [
+        {
+          "id": "46",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "47",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 46: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 47. Falha: 48.",
+      "options": [
+        {
+          "id": "47",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "48",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 47: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 48. Falha: 49.",
+      "options": [
+        {
+          "id": "48",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "49",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 48: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 49. Falha: 50.",
+      "options": [
+        {
+          "id": "49",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "50",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 49: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 50. Falha: 51.",
+      "options": [
+        {
+          "id": "50",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "51",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 50: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 51. Falha: 52.",
+      "options": [
+        {
+          "id": "51",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "52",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 51: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 52. Falha: 53.",
+      "options": [
+        {
+          "id": "52",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "53",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 52: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 53. Falha: 54.",
+      "options": [
+        {
+          "id": "53",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "54",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 53: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 54. Falha: 55.",
+      "options": [
+        {
+          "id": "54",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "55",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 54: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 55. Falha: 56.",
+      "options": [
+        {
+          "id": "55",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "56",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 55: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 56. Falha: 57.",
+      "options": [
+        {
+          "id": "56",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "57",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 56: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 57. Falha: 58.",
+      "options": [
+        {
+          "id": "57",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "58",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 57: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 58. Falha: 59.",
+      "options": [
+        {
+          "id": "58",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "59",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 58: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 59. Falha: 60.",
+      "options": [
+        {
+          "id": "59",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "60",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 59: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 60. Falha: 61.",
+      "options": [
+        {
+          "id": "60",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "61",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 60: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 61. Falha: 62.",
+      "options": [
+        {
+          "id": "61",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "62",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 61: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 62. Falha: 63.",
+      "options": [
+        {
+          "id": "62",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "63",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 62: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 63. Falha: 64.",
+      "options": [
+        {
+          "id": "63",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "64",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 63: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 64. Falha: 65.",
+      "options": [
+        {
+          "id": "64",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "65",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 64: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 65. Falha: 66.",
+      "options": [
+        {
+          "id": "65",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "66",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 65: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 66. Falha: 67.",
+      "options": [
+        {
+          "id": "66",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "67",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 66: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 67. Falha: 68.",
+      "options": [
+        {
+          "id": "67",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "68",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 67: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 68. Falha: 69.",
+      "options": [
+        {
+          "id": "68",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "69",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 68: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 69. Falha: 70.",
+      "options": [
+        {
+          "id": "69",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "70",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 69: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 70. Falha: 71.",
+      "options": [
+        {
+          "id": "70",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "71",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 70: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 71. Falha: 72.",
+      "options": [
+        {
+          "id": "71",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "72",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 71: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 72. Falha: 73.",
+      "options": [
+        {
+          "id": "72",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "73",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 72: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 73. Falha: 74.",
+      "options": [
+        {
+          "id": "73",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "74",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 73: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 74. Falha: 75.",
+      "options": [
+        {
+          "id": "74",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "75",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 74: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 75. Falha: 76.",
+      "options": [
+        {
+          "id": "75",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "76",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 75: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 76. Falha: 77.",
+      "options": [
+        {
+          "id": "76",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "77",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 76: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 77. Falha: 78.",
+      "options": [
+        {
+          "id": "77",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "78",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 77: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 78. Falha: 79.",
+      "options": [
+        {
+          "id": "78",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "79",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 78: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 79. Falha: 80.",
+      "options": [
+        {
+          "id": "79",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "80",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 79: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 80. Falha: 81.",
+      "options": [
+        {
+          "id": "80",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "81",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 80: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 81. Falha: 82.",
+      "options": [
+        {
+          "id": "81",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "82",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 81: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 82. Falha: 83.",
+      "options": [
+        {
+          "id": "82",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "83",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 82: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 83. Falha: 84.",
+      "options": [
+        {
+          "id": "83",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "84",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 83: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 84. Falha: 85.",
+      "options": [
+        {
+          "id": "84",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "85",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 84: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 85. Falha: 86.",
+      "options": [
+        {
+          "id": "85",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "86",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 85: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 86. Falha: 87.",
+      "options": [
+        {
+          "id": "86",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "87",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 86: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 87. Falha: 88.",
+      "options": [
+        {
+          "id": "87",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "88",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 87: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 88. Falha: 89.",
+      "options": [
+        {
+          "id": "88",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "89",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 88: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 89. Falha: 90.",
+      "options": [
+        {
+          "id": "89",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "90",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 89: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 90. Falha: 91.",
+      "options": [
+        {
+          "id": "90",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "91",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 90: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 91. Falha: 92.",
+      "options": [
+        {
+          "id": "91",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "92",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 91: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 92. Falha: 93.",
+      "options": [
+        {
+          "id": "92",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "93",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 92: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 93. Falha: 94.",
+      "options": [
+        {
+          "id": "93",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "94",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 93: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 94. Falha: 95.",
+      "options": [
+        {
+          "id": "94",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "95",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 94: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 95. Falha: 96.",
+      "options": [
+        {
+          "id": "95",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "96",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 95: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 96. Falha: 97.",
+      "options": [
+        {
+          "id": "96",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "97",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 96: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 97. Falha: 98.",
+      "options": [
+        {
+          "id": "97",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "98",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 97: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 98. Falha: 99.",
+      "options": [
+        {
+          "id": "98",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "99",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 98: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 99. Falha: 100.",
+      "options": [
+        {
+          "id": "99",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "100",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 99: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 100. Falha: 101.",
+      "options": [
+        {
+          "id": "100",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "101",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 100: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 101. Falha: 102.",
+      "options": [
+        {
+          "id": "101",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "102",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 101: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 102. Falha: 103.",
+      "options": [
+        {
+          "id": "102",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "103",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 102: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 103. Falha: 104.",
+      "options": [
+        {
+          "id": "103",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "104",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 103: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 104. Falha: 105.",
+      "options": [
+        {
+          "id": "104",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "105",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 104: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 105. Falha: 106.",
+      "options": [
+        {
+          "id": "105",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "106",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 105: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 106. Falha: 107.",
+      "options": [
+        {
+          "id": "106",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "107",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 106: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 107. Falha: 108.",
+      "options": [
+        {
+          "id": "107",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "108",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 107: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 108. Falha: 109.",
+      "options": [
+        {
+          "id": "108",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "109",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 108: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 109. Falha: 110.",
+      "options": [
+        {
+          "id": "109",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "110",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 109: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 110. Falha: 111.",
+      "options": [
+        {
+          "id": "110",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "111",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 110: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 111. Falha: 112.",
+      "options": [
+        {
+          "id": "111",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "112",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 111: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 112. Falha: 113.",
+      "options": [
+        {
+          "id": "112",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "113",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 112: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 113. Falha: 114.",
+      "options": [
+        {
+          "id": "113",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "114",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 113: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 114. Falha: 115.",
+      "options": [
+        {
+          "id": "114",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "115",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 114: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 115. Falha: 116.",
+      "options": [
+        {
+          "id": "115",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "116",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 115: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 116. Falha: 117.",
+      "options": [
+        {
+          "id": "116",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "117",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 116: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 117. Falha: 118.",
+      "options": [
+        {
+          "id": "117",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "118",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 117: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 118. Falha: 119.",
+      "options": [
+        {
+          "id": "118",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "119",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 118: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 119. Falha: 120.",
+      "options": [
+        {
+          "id": "119",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "120",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 119: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 120. Falha: 121.",
+      "options": [
+        {
+          "id": "120",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "121",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 120: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 121. Falha: 122.",
+      "options": [
+        {
+          "id": "121",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "122",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 121: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 122. Falha: 123.",
+      "options": [
+        {
+          "id": "122",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "123",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 122: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 123. Falha: 124.",
+      "options": [
+        {
+          "id": "123",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "124",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 123: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 124. Falha: 125.",
+      "options": [
+        {
+          "id": "124",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "125",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 124: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 125. Falha: 126.",
+      "options": [
+        {
+          "id": "125",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "126",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 125: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 126. Falha: 127.",
+      "options": [
+        {
+          "id": "126",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "127",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 126: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 127. Falha: 128.",
+      "options": [
+        {
+          "id": "127",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "128",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 127: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 128. Falha: 129.",
+      "options": [
+        {
+          "id": "128",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "129",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 128: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 129. Falha: 130.",
+      "options": [
+        {
+          "id": "129",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "130",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 129: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 130. Falha: 131.",
+      "options": [
+        {
+          "id": "130",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "131",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 130: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 131. Falha: 132.",
+      "options": [
+        {
+          "id": "131",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "132",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 131: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 132. Falha: 133.",
+      "options": [
+        {
+          "id": "132",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "133",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 132: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 133. Falha: 134.",
+      "options": [
+        {
+          "id": "133",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "134",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 133: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 134. Falha: 135.",
+      "options": [
+        {
+          "id": "134",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "135",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 134: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 135. Falha: 136.",
+      "options": [
+        {
+          "id": "135",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "136",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 135: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 136. Falha: 137.",
+      "options": [
+        {
+          "id": "136",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "137",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 136: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 137. Falha: 138.",
+      "options": [
+        {
+          "id": "137",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "138",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 137: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 138. Falha: 139.",
+      "options": [
+        {
+          "id": "138",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "139",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 138: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 139. Falha: 140.",
+      "options": [
+        {
+          "id": "139",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "140",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 139: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 140. Falha: 141.",
+      "options": [
+        {
+          "id": "140",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "141",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 140: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 141. Falha: 142.",
+      "options": [
+        {
+          "id": "141",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "142",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 141: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 142. Falha: 143.",
+      "options": [
+        {
+          "id": "142",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "143",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 142: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 143. Falha: 144.",
+      "options": [
+        {
+          "id": "143",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "144",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 143: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 144. Falha: 145.",
+      "options": [
+        {
+          "id": "144",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "145",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 144: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 145. Falha: 146.",
+      "options": [
+        {
+          "id": "145",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "146",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 145: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 146. Falha: 147.",
+      "options": [
+        {
+          "id": "146",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "147",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 146: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 147. Falha: 148.",
+      "options": [
+        {
+          "id": "147",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "148",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 147: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 148. Falha: 149.",
+      "options": [
+        {
+          "id": "148",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "149",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 148: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 149. Falha: 150.",
+      "options": [
+        {
+          "id": "149",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "150",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 149: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 150. Falha: 151.",
+      "options": [
+        {
+          "id": "150",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "151",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 150: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 151. Falha: 152.",
+      "options": [
+        {
+          "id": "151",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "152",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 151: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 152. Falha: 153.",
+      "options": [
+        {
+          "id": "152",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "153",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 152: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 153. Falha: 154.",
+      "options": [
+        {
+          "id": "153",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "154",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 153: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 154. Falha: 155.",
+      "options": [
+        {
+          "id": "154",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "155",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 154: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 155. Falha: 156.",
+      "options": [
+        {
+          "id": "155",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "156",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 155: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 156. Falha: 157.",
+      "options": [
+        {
+          "id": "156",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "157",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 156: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 157. Falha: 158.",
+      "options": [
+        {
+          "id": "157",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "158",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 157: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 158. Falha: 159.",
+      "options": [
+        {
+          "id": "158",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "159",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 158: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 159. Falha: 160.",
+      "options": [
+        {
+          "id": "159",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "160",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 159: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 160. Falha: 161.",
+      "options": [
+        {
+          "id": "160",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "161",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 160: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 161. Falha: 162.",
+      "options": [
+        {
+          "id": "161",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "162",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 161: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 162. Falha: 163.",
+      "options": [
+        {
+          "id": "162",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "163",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 162: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 163. Falha: 164.",
+      "options": [
+        {
+          "id": "163",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "164",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 163: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 164. Falha: 165.",
+      "options": [
+        {
+          "id": "164",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "165",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 164: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 165. Falha: 166.",
+      "options": [
+        {
+          "id": "165",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "166",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 165: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 166. Falha: 167.",
+      "options": [
+        {
+          "id": "166",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "167",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "167",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 166: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 167. Falha: 168.",
+      "options": [
+        {
+          "id": "167",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "168",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 167: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 168. Falha: 169.",
+      "options": [
+        {
+          "id": "168",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "169",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "169",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 168: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 169. Falha: 170.",
+      "options": [
+        {
+          "id": "169",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "170",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 169: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 170. Falha: 171.",
+      "options": [
+        {
+          "id": "170",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "171",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 170: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 171. Falha: 172.",
+      "options": [
+        {
+          "id": "171",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "172",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 171: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 172. Falha: 173.",
+      "options": [
+        {
+          "id": "172",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "173",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 172: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 173. Falha: 174.",
+      "options": [
+        {
+          "id": "173",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "174",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 173: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 174. Falha: 175.",
+      "options": [
+        {
+          "id": "174",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "175",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 174: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 175. Falha: 176.",
+      "options": [
+        {
+          "id": "175",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "176",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 175: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 176. Falha: 177.",
+      "options": [
+        {
+          "id": "176",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "177",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 176: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 177. Falha: 178.",
+      "options": [
+        {
+          "id": "177",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "178",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 177: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 178. Falha: 179.",
+      "options": [
+        {
+          "id": "178",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "179",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 178: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 179. Falha: 180.",
+      "options": [
+        {
+          "id": "179",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "180",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 179: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 180. Falha: 181.",
+      "options": [
+        {
+          "id": "180",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "181",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 180: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 181. Falha: 182.",
+      "options": [
+        {
+          "id": "181",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "182",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 181: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 182. Falha: 183.",
+      "options": [
+        {
+          "id": "182",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "183",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 182: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 183. Falha: 184.",
+      "options": [
+        {
+          "id": "183",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "184",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "184",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 183: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 184. Falha: 185.",
+      "options": [
+        {
+          "id": "184",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "185",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "185",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 184: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 185. Falha: 186.",
+      "options": [
+        {
+          "id": "185",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "186",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "186",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 185: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 186. Falha: 187.",
+      "options": [
+        {
+          "id": "186",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "187",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 186: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 187. Falha: 188.",
+      "options": [
+        {
+          "id": "187",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "188",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 187: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 188. Falha: 189.",
+      "options": [
+        {
+          "id": "188",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "189",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 188: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 189. Falha: 190.",
+      "options": [
+        {
+          "id": "189",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "190",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 189: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 190. Falha: 191.",
+      "options": [
+        {
+          "id": "190",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "191",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "191",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 190: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 191. Falha: 192.",
+      "options": [
+        {
+          "id": "191",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "192",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "192",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 191: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 192. Falha: 193.",
+      "options": [
+        {
+          "id": "192",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "193",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 192: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 193. Falha: 194.",
+      "options": [
+        {
+          "id": "193",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "194",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 193: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 194. Falha: 195.",
+      "options": [
+        {
+          "id": "194",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "195",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "195",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 194: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 195. Falha: 196.",
+      "options": [
+        {
+          "id": "195",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "196",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "196",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 195: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 196. Falha: 197.",
+      "options": [
+        {
+          "id": "196",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "197",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "197",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 196: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 197. Falha: 198.",
+      "options": [
+        {
+          "id": "197",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "198",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 197: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 198. Falha: 199.",
+      "options": [
+        {
+          "id": "198",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "199",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "199",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 198: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 199. Falha: 200.",
+      "options": [
+        {
+          "id": "199",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "200",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 199: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 200. Falha: 201.",
+      "options": [
+        {
+          "id": "200",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "201",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 200: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 201. Falha: 202.",
+      "options": [
+        {
+          "id": "201",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "202",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 201: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 202. Falha: 203.",
+      "options": [
+        {
+          "id": "202",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "203",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 202: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 203. Falha: 204.",
+      "options": [
+        {
+          "id": "203",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "204",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 203: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 204. Falha: 205.",
+      "options": [
+        {
+          "id": "204",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "205",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 204: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 205. Falha: 206.",
+      "options": [
+        {
+          "id": "205",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "206",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "206",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 205: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 206. Falha: 207.",
+      "options": [
+        {
+          "id": "206",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "207",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "207",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 206: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 207. Falha: 208.",
+      "options": [
+        {
+          "id": "207",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "208",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "208",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 207: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 208. Falha: 209.",
+      "options": [
+        {
+          "id": "208",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "209",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 208: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 209. Falha: 210.",
+      "options": [
+        {
+          "id": "209",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "210",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 209: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 210. Falha: 211.",
+      "options": [
+        {
+          "id": "210",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "211",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "211",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 210: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 211. Falha: 212.",
+      "options": [
+        {
+          "id": "211",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "212",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "212",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 211: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 212. Falha: 213.",
+      "options": [
+        {
+          "id": "212",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "213",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "213",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 212: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 213. Falha: 214.",
+      "options": [
+        {
+          "id": "213",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "214",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "214",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 213: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 214. Falha: 215.",
+      "options": [
+        {
+          "id": "214",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "215",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 214: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 215. Falha: 216.",
+      "options": [
+        {
+          "id": "215",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "216",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "216",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 215: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 216. Falha: 217.",
+      "options": [
+        {
+          "id": "216",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "217",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "217",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 216: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 217. Falha: 218.",
+      "options": [
+        {
+          "id": "217",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "218",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "218",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 217: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 218. Falha: 219.",
+      "options": [
+        {
+          "id": "218",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "219",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "219",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 218: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 219. Falha: 220.",
+      "options": [
+        {
+          "id": "219",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "220",
+          "text": "Ignorar o som"
+        }
+      ]
+    },
+    {
+      "id": "220",
+      "text": "Você explora Brumavale e Nargul investigando o mistério dos sumiços. Pista 219: uma cantiga ecoa mais forte. Teste de Sabedoria para ouvir a verdade. Sucesso: 220. Falha: 221.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Ouvir com atenção"
+        },
+        {
+          "id": "220",
+          "text": "Ignorar o som"
+        }
+      ]
+    }
+  ]
+}

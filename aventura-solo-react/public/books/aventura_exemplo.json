@@ -1,0 +1,40 @@
+{
+  "characteristics": {
+    "hp": { "current": 10, "max": 10 },
+    "ht": { "current": 10, "max": 10 }
+  },
+  "personagens": [
+    {
+      "nome": "João da Silva",
+      "forca": 10,
+      "saude": 10
+    },
+    {
+      "nome": "Maria Joaquina",
+      "forca": 6,
+      "saude": 8
+    }
+  ],
+  "pages": [
+    {
+      "id": "1",
+      "text": "Você é João e acabou de conhecer Maria. Se vc quiser flertar com Maria, vá para 2. Senão, vá para 3.",
+      "options": [
+        { "id": "2", "text": "Flertar com Maria" },
+        { "id": "3", "text": "Ignorar e seguir em frente" }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "Vc se prepara para cantar Maria. Mas o namorado dela aparece, e tem mais de 2m de altura. Vá para 3.",
+      "options": [
+        { "id": "3", "text": "Correr!" }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "Vc vai pra casa, sozinho e frustrado. Forever Alone...",
+      "options": []
+    }
+  ]
+}

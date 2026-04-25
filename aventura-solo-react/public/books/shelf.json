@@ -1,0 +1,14 @@
+[
+  {
+    "id": "livro-Valdoria",
+    "title": "Valdoria",
+    "filename": "livro-Valdoria.json",
+    "description": "Uma história de fantasia épica."
+  },
+  {
+    "id": "livro-Valdoria-2",
+    "title": "Valdoria 2",
+    "filename": "livro-Valdoria-2.json",
+    "description": "Uma história de fantasia épica."
+  }
+]
