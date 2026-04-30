@@ -1,0 +1,2372 @@
+{
+  "characteristics": {
+    "hp": {
+      "current": 10,
+      "max": 10
+    },
+    "ht": {
+      "current": 10,
+      "max": 10
+    }
+  },
+  "pages": [
+    {
+      "id": "1",
+      "text": "Em Eldoria, a maga Sabrina, o guerreiro Garrick e a ladina Lyra investigam uma ruína antiga. Uma Guarda das Sombras aparece e diz que a magia do reino está sendo drenada. Se entrar na sala do altar, vá para 2. Se examinar os corredores primeiro, vá para 3.",
+      "options": [
+        {
+          "id": "2",
+          "text": "Entrar na sala do altar"
+        },
+        {
+          "id": "3",
+          "text": "Examinar os corredores"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "Na sala do altar, há um Cajado Antigo, uma Esfera de Cristal e um Livro de Feitiços. Uma sensação de perigo paira no ar. Se olhar o Livro de Feitiços, vá para 4. Se coletar os artefatos, vá para 5.",
+      "options": [
+        {
+          "id": "4",
+          "text": "Olhar o Livro de Feitiços"
+        },
+        {
+          "id": "5",
+          "text": "Coletar os artefatos"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "Os corredores se dividem. À esquerda, um trecho escuro e estreito desce para uma sala profunda. À direita, um corredor iluminado leva a uma área aberta. Se seguir à esquerda, vá para 6. Se seguir à direita, vá para 7.",
+      "options": [
+        {
+          "id": "6",
+          "text": "Corredor escuro"
+        },
+        {
+          "id": "7",
+          "text": "Corredor iluminado"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text": "O livro revela feitiços de proteção, invocação e chama elemental. A Guarda das Sombras diz que esses conhecimentos serão vitais contra a corrupção. Se aprender os feitiços, vá para 8. Se guardar o livro para depois, vá para 5.",
+      "options": [
+        {
+          "id": "8",
+          "text": "Aprender feitiços"
+        },
+        {
+          "id": "5",
+          "text": "Guardar o livro"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "text": "O grupo decide reunir o Cajado Antigo, a Esfera de Cristal e o Livro de Feitiços. A energia dos itens pulsa em harmonia. Se discutir como usar os itens, vá para 9. Se continuar explorando, vá para 10.",
+      "options": [
+        {
+          "id": "9",
+          "text": "Discutir os itens"
+        },
+        {
+          "id": "10",
+          "text": "Continuar a exploração"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "text": "No corredor escuro, armadilhas de runas brilham no chão. A Guardiã das Sombras avisa que a sombra adora caminhos sem luz. Se desviar das runas, vá para 11. Se tocá-las, vá para 12.",
+      "options": [
+        {
+          "id": "11",
+          "text": "Desviar"
+        },
+        {
+          "id": "12",
+          "text": "Tocar nas runas"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "text": "O corredor iluminado leva a uma grande sala com cristais e uma fonte de água brilhante. Artefatos antigos descansam sobre pedestais. Se examinar a fonte, vá para 13. Se investigar os artefatos, vá para 14.",
+      "options": [
+        {
+          "id": "13",
+          "text": "Examinar a fonte"
+        },
+        {
+          "id": "14",
+          "text": "Investigar os artefatos"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "text": "Sabrina memoriza feitiços de chama elemental, barreira mágica e conexão com a natureza. Garrick e Lyra ficam impressionados. Se usar a barreira, vá para 15. Se continuar para o próximo corredor, vá para 16.",
+      "options": [
+        {
+          "id": "15",
+          "text": "Usar a barreira mágica"
+        },
+        {
+          "id": "16",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "text": "Garrick quer o Escudo Mágico, Lyra quer a Esfera de Cristal e Sabrina fica com o Livro de Feitiços. O grupo sente-se mais forte. Se sair da ruína, vá para 17. Se buscar mais pistas, vá para 18.",
+      "options": [
+        {
+          "id": "17",
+          "text": "Sair da ruína"
+        },
+        {
+          "id": "18",
+          "text": "Buscar pistas"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "text": "Um som distante de água e vento ecoa pela ruína. Há marcas de passos levadas até o subsolo. Se seguir as marcas, vá para 19. Se voltar e escolher outro corredor, vá para 3.",
+      "options": [
+        {
+          "id": "19",
+          "text": "Seguir as marcas"
+        },
+        {
+          "id": "3",
+          "text": "Voltar"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "text": "Você evita as runas e encontra um medalhão antigo com o símbolo de Eldoria. Ele aponta para o Lago das Sombras. Vá para 20.",
+      "options": [
+        {
+          "id": "20",
+          "text": "Ir ao Lago das Sombras"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "text": "As runas reagem com um clarão e uma pequena descarga de sombra. Garrick protege o grupo. Se tentar se recuperar, vá para 11. Se recuar, vá para 3.",
+      "options": [
+        {
+          "id": "11",
+          "text": "Recuperar"
+        },
+        {
+          "id": "3",
+          "text": "Recuar"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "A fonte parece viva. A água mostra visões de uma floresta corrompida e de uma entidade sombria no centro de um lago. Se beber a água, vá para 21. Se apenas observar, vá para 20.",
+      "options": [
+        {
+          "id": "21",
+          "text": "Beber"
+        },
+        {
+          "id": "20",
+          "text": "Observar"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "text": "Os artefatos incluem um anel de proteção, um pergaminho de bola de fogo e uma pequena chave prateada. Se pegar o anel, vá para 22. Se pegar o pergaminho, vá para 23.",
+      "options": [
+        {
+          "id": "22",
+          "text": "Pegar o anel"
+        },
+        {
+          "id": "23",
+          "text": "Pegar o pergaminho"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "A barreira mágica surge e o ar fica menos hostil. A equipe consegue atravessar uma passagem antes invisível. Se avançar, vá para 24. Se analisar a passagem, vá para 25.",
+      "options": [
+        {
+          "id": "24",
+          "text": "Avançar"
+        },
+        {
+          "id": "25",
+          "text": "Analisar a passagem"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "O corredor leva a uma bifurcação: uma escada para baixo e uma ponte de raízes para cima. Se descer, vá para 26. Se subir, vá para 27.",
+      "options": [
+        {
+          "id": "26",
+          "text": "Descer"
+        },
+        {
+          "id": "27",
+          "text": "Subir"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "O grupo sai da ruína com novos itens e conhecimento. Mas a corrupção continua. Se ir para a floresta mágica, vá para 28. Se investigar as cavernas sussurrantes, vá para 29.",
+      "options": [
+        {
+          "id": "28",
+          "text": "Floresta mágica"
+        },
+        {
+          "id": "29",
+          "text": "Cavernas sussurrantes"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "text": "Uma inscrição fala: 'Onde a água escurece, a sombra ganha voz'. Isso confirma o Lago das Sombras como origem da crise. Vá para 20.",
+      "options": [
+        {
+          "id": "20",
+          "text": "Ir ao lago"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "text": "As marcas levam a um túnel oculto com cheiro de musgo e água. Há uma porta de pedra com o símbolo de uma lua quebrada. Se abrir a porta, vá para 30. Se ouvir antes, vá para 31.",
+      "options": [
+        {
+          "id": "30",
+          "text": "Abrir a porta"
+        },
+        {
+          "id": "31",
+          "text": "Ouvir a porta"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "O Lago das Sombras surge à frente: água negra, árvores tortas e um silêncio pesado. A Guardiã das Sombras paira ao lado do grupo, pronta para proteger. Se realizar um ritual, vá para 32. Se procurar criaturas corrompidas, vá para 33.",
+      "options": [
+        {
+          "id": "32",
+          "text": "Realizar ritual"
+        },
+        {
+          "id": "33",
+          "text": "Procurar criaturas"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "text": "A água revela memórias antigas da floresta e a imagem de uma entidade aprisionada sob o lago. Não é venenosa, mas é poderosa. Vá para 20.",
+      "options": [
+        {
+          "id": "20",
+          "text": "Ir ao lago"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "text": "O Anel de Proteção envolve Sabrina com uma luz suave. Ela se sente mais segura contra magia sombria. Vá para 24.",
+      "options": [
+        {
+          "id": "24",
+          "text": "Seguir adiante"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "text": "O Pergaminho da Bola de Fogo brilha nas mãos de Sabrina. Lyra e Garrick aprovam a escolha. Vá para 24.",
+      "options": [
+        {
+          "id": "24",
+          "text": "Avançar"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "text": "Uma trilha de flores azuis leva ao centro de uma floresta mágica ainda intocada pela corrupção. Lá, espíritos antigos observam em silêncio. Se pedir ajuda, vá para 34. Se seguir sozinho, vá para 35.",
+      "options": [
+        {
+          "id": "34",
+          "text": "Pedir ajuda"
+        },
+        {
+          "id": "35",
+          "text": "Seguir sozinho"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "text": "A passagem oculta leva a uma sala com inscrições sobre o Cajado Antigo e a Esfera de Cristal. Se ler as inscrições, vá para 36. Se seguir pela passagem, vá para 24.",
+      "options": [
+        {
+          "id": "36",
+          "text": "Ler inscrições"
+        },
+        {
+          "id": "24",
+          "text": "Seguir pela passagem"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "text": "Lá embaixo existe uma câmara alagada com espelhos quebrados. Um reflexo mostra o Lago das Sombras. Se tocar a água, vá para 37. Se procurar saída, vá para 38.",
+      "options": [
+        {
+          "id": "37",
+          "text": "Tocar a água"
+        },
+        {
+          "id": "38",
+          "text": "Procurar saída"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "text": "Na ponte de raízes, você encontra uma placa: 'A verdade sobe pela luz'. A ponte balança, mas parece segura. Se continuar, vá para 24. Se voltar, vá para 16.",
+      "options": [
+        {
+          "id": "24",
+          "text": "Continuar"
+        },
+        {
+          "id": "16",
+          "text": "Voltar"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "text": "Na floresta mágica, fadas observam o grupo com curiosidade. Elas dizem que a corrupção vem de um portal subterrâneo. Se seguir as fadas, vá para 39. Se conversar com elas, vá para 40.",
+      "options": [
+        {
+          "id": "39",
+          "text": "Seguir as fadas"
+        },
+        {
+          "id": "40",
+          "text": "Conversar"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "text": "As cavernas sussurrantes ecoam com vozes antigas. Há sinais de rituais e raízes negras nas paredes. Se explorar mais fundo, vá para 41. Se voltar para a floresta, vá para 28.",
+      "options": [
+        {
+          "id": "41",
+          "text": "Explorar fundo"
+        },
+        {
+          "id": "28",
+          "text": "Voltar à floresta"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "text": "A porta se abre para um salão com um altar quebrado e uma esfera apagada no centro. Algo importante aconteceu ali. Se investigar a esfera apagada, vá para 42. Se buscar armadilhas, vá para 43.",
+      "options": [
+        {
+          "id": "42",
+          "text": "Investigar a esfera"
+        },
+        {
+          "id": "43",
+          "text": "Buscar armadilhas"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "text": "Do outro lado, uma voz sussurra em língua antiga. Parece pedir ajuda, mas também esconder um aviso. Se abrir a porta, vá para 30. Se fugir, vá para 17.",
+      "options": [
+        {
+          "id": "30",
+          "text": "Abrir"
+        },
+        {
+          "id": "17",
+          "text": "Fugir"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "text": "O ritual usa água pura, a luz da Esfera de Cristal e as palavras do Livro de Feitiços. O lago reage. Se o ritual der certo, vá para 44. Se falhar, vá para 45.",
+      "options": [
+        {
+          "id": "44",
+          "text": "Ritual bem-sucedido"
+        },
+        {
+          "id": "45",
+          "text": "Ritual falho"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "Criaturas corrompidas surgem das margens: cervos sombrios e pequenos espíritos afogados. Se lutar, vá para 46. Se tentar acalmá-las, vá para 47.",
+      "options": [
+        {
+          "id": "46",
+          "text": "Lutar"
+        },
+        {
+          "id": "47",
+          "text": "Acalmar"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "text": "Os espíritos dizem que a entidade está presa sob o lago e que a corrupção cresce quando alguém usa magia por vaidade. Se prometer ajuda, vá para 32. Se ignorar o aviso, vá para 45.",
+      "options": [
+        {
+          "id": "32",
+          "text": "Prometer ajuda"
+        },
+        {
+          "id": "45",
+          "text": "Ignorar"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "Sozinha, Sabrina sente a floresta pulsar como um coração. Um caminho oculto surge entre as árvores. Vá para 39.",
+      "options": [
+        {
+          "id": "39",
+          "text": "Seguir caminho oculto"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "As inscrições mostram que o altar servia para purificar magia e que a Esfera de Cristal funcionava como foco. Isso pode ajudar no ritual. Vá para 32.",
+      "options": [
+        {
+          "id": "32",
+          "text": "Seguir ao ritual"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "A água fria mostra um mapa do subsolo, indicando a origem da corrupção. Você sai da câmara com uma direção clara. Vá para 41.",
+      "options": [
+        {
+          "id": "41",
+          "text": "Seguir para as cavernas"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "A saída leva de volta ao salão principal, mas agora você conhece melhor o lugar. Vá para 30.",
+      "options": [
+        {
+          "id": "30",
+          "text": "Retornar ao salão"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "As fadas indicam uma árvore ancestral que aponta para uma entrada escondida no chão. Vá para 41.",
+      "options": [
+        {
+          "id": "41",
+          "text": "Ir à entrada escondida"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "As fadas contam que uma criança desaparecida chamada Lira ouviu a cantiga da entidade antes de sumir. A trilha leva às cavernas. Vá para 41.",
+      "options": [
+        {
+          "id": "41",
+          "text": "Seguir a trilha"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "Você encontra a entrada das Cavernas Sussurrantes, úmidas e repletas de ecos. O ar carrega vozes baixas e pedras luminescentes. Se entrar, vá para 48. Se pedir ajuda à Guardiã das Sombras, vá para 49.",
+      "options": [
+        {
+          "id": "48",
+          "text": "Entrar"
+        },
+        {
+          "id": "49",
+          "text": "Pedir ajuda"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "text": "A esfera apagada reage quando Sabrina se aproxima. Uma voz diz: 'A luz precisa de coragem para despertar.' Se tocar a esfera, vá para 50. Se levá-la, vá para 51.",
+      "options": [
+        {
+          "id": "50",
+          "text": "Tocar"
+        },
+        {
+          "id": "51",
+          "text": "Levar"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "text": "Você encontra um mecanismo escondido atrás do altar, pronto para disparar dardos sombrios. Com cuidado, o grupo o desativa. Vá para 32.",
+      "options": [
+        {
+          "id": "32",
+          "text": "Voltar ao ritual"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "text": "A água do lago clareia. A entidade presa se enfraquece, mas ainda não está livre. Vá para 52.",
+      "options": [
+        {
+          "id": "52",
+          "text": "Aproximar-se da entidade"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "text": "A corrupção resiste. O lago se agita e uma sombra gigante ergue-se das águas. Se lutar, vá para 53. Se correr, vá para 20.",
+      "options": [
+        {
+          "id": "53",
+          "text": "Lutar com a sombra"
+        },
+        {
+          "id": "20",
+          "text": "Correr ao lago"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "text": "As criaturas se acalmam quando Lyra toca uma melodia suave. Elas recuam, deixando um caminho até uma gruta iluminada. Vá para 54.",
+      "options": [
+        {
+          "id": "54",
+          "text": "Seguir o caminho"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "text": "Acalmadas, as criaturas indicam a gruta iluminada. A corrupção não as controla por muito tempo. Vá para 54.",
+      "options": [
+        {
+          "id": "54",
+          "text": "Ir à gruta"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "text": "As cavernas sussurram em várias vozes. Entre as pedras, há símbolos que formam o nome 'Lira'. Você percebe que a criança desaparecida pode estar viva. Se avançar, vá para 55. Se voltar ao lago, vá para 20.",
+      "options": [
+        {
+          "id": "55",
+          "text": "Avançar"
+        },
+        {
+          "id": "20",
+          "text": "Voltar ao lago"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "text": "A Guardiã das Sombras diz que consegue abrir um caminho seguro por uma hora. Vá para 48.",
+      "options": [
+        {
+          "id": "48",
+          "text": "Entrar com proteção"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "text": "A esfera acende como uma lua pequena e mostra o reflexo de uma criança em um quarto de pedra. Vá para 55.",
+      "options": [
+        {
+          "id": "55",
+          "text": "Seguir a visão"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "text": "Ao carregar a esfera, você sente que ela deseja voltar ao altar. Vá para 30.",
+      "options": [
+        {
+          "id": "30",
+          "text": "Retornar ao altar"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "text": "A entidade presa sob o lago emerge como um espírito antigo de Eldoria. Ela pede que você a liberte ou a destrua. Se libertar, vá para 56. Se destruir, vá para 57.",
+      "options": [
+        {
+          "id": "56",
+          "text": "Libertar a entidade"
+        },
+        {
+          "id": "57",
+          "text": "Destruir a entidade"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "text": "A sombra gigante tenta engolir a luz. Garrick defende o grupo e Lyra ataca seus pontos fracos. Se vencer, vá para 44. Se falhar, vá para 58.",
+      "options": [
+        {
+          "id": "44",
+          "text": "Vencer"
+        },
+        {
+          "id": "58",
+          "text": "Ser derrotado"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "text": "Na gruta iluminada, você encontra crianças adormecidas em redes de raízes. Entre elas está Lira, a sobrinha do rei. Se acordá-las, vá para 59. Se procurar o responsável, vá para 60.",
+      "options": [
+        {
+          "id": "59",
+          "text": "Acordar as crianças"
+        },
+        {
+          "id": "60",
+          "text": "Procurar o responsável"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "text": "Um corredor de pedra leva a uma sala circular com um espelho negro. O espelho mostra Morgath, um mago corrompido por ambição. Vá para 60.",
+      "options": [
+        {
+          "id": "60",
+          "text": "Enfrentar Morgath"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "text": "A entidade agradece e promete purificar o reino em troca de memória e luz. O lago se torna claro. Vá para 61.",
+      "options": [
+        {
+          "id": "61",
+          "text": "Voltar com a entidade"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "text": "Ao destruir a entidade, as águas se agitam, mas a corrupção some. O silêncio toma conta da floresta. Vá para 61.",
+      "options": [
+        {
+          "id": "61",
+          "text": "Retornar"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "text": "A sombra o prende por um momento, mas a Guardiã das Sombras intervém. Você consegue escapar. Vá para 44.",
+      "options": [
+        {
+          "id": "44",
+          "text": "Retomar o controle"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "text": "As crianças acordam assustadas, mas seguras. Lira diz que ouviu a música da sombra, mas resistiu pensando em casa. Vá para 61.",
+      "options": [
+        {
+          "id": "61",
+          "text": "Levá-las de volta"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "text": "Morgath surge, revelando ter usado a corrupção para alimentar seu poder. Ele quer abrir um portal de sombras. Se atacar, vá para 62. Se conversar, vá para 63.",
+      "options": [
+        {
+          "id": "62",
+          "text": "Atacar"
+        },
+        {
+          "id": "63",
+          "text": "Conversar"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "text": "Com as crianças resgatadas, você retorna a Eldoria em triunfo. O rei oferece honra e gratidão. Se quiser encerrar a aventura, vá para 220. Se investigar o portal de sombra, vá para 64.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Encerrar"
+        },
+        {
+          "id": "64",
+          "text": "Investigar o portal"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "text": "A batalha final começa. Sabrina usa feitiços, Garrick protege e Lyra ataca. Se vencer Morgath, vá para 220. Se perder, vá para 65.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Vencer"
+        },
+        {
+          "id": "65",
+          "text": "Perder"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "text": "Morgath hesita ao ouvir que Lira está viva. Sua magia oscila. Se insistir na conversa, vá para 66. Se recuar, vá para 62.",
+      "options": [
+        {
+          "id": "66",
+          "text": "Insistir"
+        },
+        {
+          "id": "62",
+          "text": "Recuar"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "text": "O portal de sombra pulsando no subsolo pede uma decisão. Se fechá-lo com a flauta de prata, vá para 220. Se deixá-lo aberto, vá para 67.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Fechar o portal"
+        },
+        {
+          "id": "67",
+          "text": "Deixar aberto"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "text": "Derrotados, vocês são salvos pela Guarda das Sombras e acordam no castelo. O rei ainda acredita em vocês. Vá para 61.",
+      "options": [
+        {
+          "id": "61",
+          "text": "Continuar"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "text": "Morgath admite que a sombra o chamou porque ele queria ser lembrado para sempre. Isso pode ser usado contra ele. Vá para 62.",
+      "options": [
+        {
+          "id": "62",
+          "text": "Usar contra Morgath"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "text": "O portal abre uma fenda e a realidade treme. Uma última chance aparece. Se correr para fechá-lo, vá para 220. Se fugir, vá para 68.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Fechar agora"
+        },
+        {
+          "id": "68",
+          "text": "Fugir"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "text": "O reino não cai, mas a ameaça permanece. Isso gera um final amargo e uma promessa de retorno. Vá para 220.",
+      "options": [
+        {
+          "id": "220",
+          "text": "Fim"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 70.",
+      "options": [
+        {
+          "id": "70",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 71.",
+      "options": [
+        {
+          "id": "71",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 72.",
+      "options": [
+        {
+          "id": "72",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 73.",
+      "options": [
+        {
+          "id": "73",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 74.",
+      "options": [
+        {
+          "id": "74",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 75.",
+      "options": [
+        {
+          "id": "75",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 76.",
+      "options": [
+        {
+          "id": "76",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 77.",
+      "options": [
+        {
+          "id": "77",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 78.",
+      "options": [
+        {
+          "id": "78",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 79.",
+      "options": [
+        {
+          "id": "79",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 80.",
+      "options": [
+        {
+          "id": "80",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 81.",
+      "options": [
+        {
+          "id": "81",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 82.",
+      "options": [
+        {
+          "id": "82",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 83.",
+      "options": [
+        {
+          "id": "83",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 84.",
+      "options": [
+        {
+          "id": "84",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 85.",
+      "options": [
+        {
+          "id": "85",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 86.",
+      "options": [
+        {
+          "id": "86",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 87.",
+      "options": [
+        {
+          "id": "87",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 88.",
+      "options": [
+        {
+          "id": "88",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 89.",
+      "options": [
+        {
+          "id": "89",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 90.",
+      "options": [
+        {
+          "id": "90",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 91.",
+      "options": [
+        {
+          "id": "91",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 92.",
+      "options": [
+        {
+          "id": "92",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 93.",
+      "options": [
+        {
+          "id": "93",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 94.",
+      "options": [
+        {
+          "id": "94",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 95.",
+      "options": [
+        {
+          "id": "95",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 96.",
+      "options": [
+        {
+          "id": "96",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 97.",
+      "options": [
+        {
+          "id": "97",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 98.",
+      "options": [
+        {
+          "id": "98",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 99.",
+      "options": [
+        {
+          "id": "99",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 100.",
+      "options": [
+        {
+          "id": "100",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 101.",
+      "options": [
+        {
+          "id": "101",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 102.",
+      "options": [
+        {
+          "id": "102",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 103.",
+      "options": [
+        {
+          "id": "103",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 104.",
+      "options": [
+        {
+          "id": "104",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 105.",
+      "options": [
+        {
+          "id": "105",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 106.",
+      "options": [
+        {
+          "id": "106",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 107.",
+      "options": [
+        {
+          "id": "107",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 108.",
+      "options": [
+        {
+          "id": "108",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 109.",
+      "options": [
+        {
+          "id": "109",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 110.",
+      "options": [
+        {
+          "id": "110",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 111.",
+      "options": [
+        {
+          "id": "111",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 112.",
+      "options": [
+        {
+          "id": "112",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 113.",
+      "options": [
+        {
+          "id": "113",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 114.",
+      "options": [
+        {
+          "id": "114",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 115.",
+      "options": [
+        {
+          "id": "115",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 116.",
+      "options": [
+        {
+          "id": "116",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 117.",
+      "options": [
+        {
+          "id": "117",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 118.",
+      "options": [
+        {
+          "id": "118",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 119.",
+      "options": [
+        {
+          "id": "119",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 120.",
+      "options": [
+        {
+          "id": "120",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 121.",
+      "options": [
+        {
+          "id": "121",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 122.",
+      "options": [
+        {
+          "id": "122",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 123.",
+      "options": [
+        {
+          "id": "123",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 124.",
+      "options": [
+        {
+          "id": "124",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 125.",
+      "options": [
+        {
+          "id": "125",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 126.",
+      "options": [
+        {
+          "id": "126",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 127.",
+      "options": [
+        {
+          "id": "127",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 128.",
+      "options": [
+        {
+          "id": "128",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 129.",
+      "options": [
+        {
+          "id": "129",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 130.",
+      "options": [
+        {
+          "id": "130",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 131.",
+      "options": [
+        {
+          "id": "131",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 132.",
+      "options": [
+        {
+          "id": "132",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 133.",
+      "options": [
+        {
+          "id": "133",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 134.",
+      "options": [
+        {
+          "id": "134",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 135.",
+      "options": [
+        {
+          "id": "135",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 136.",
+      "options": [
+        {
+          "id": "136",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 137.",
+      "options": [
+        {
+          "id": "137",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 138.",
+      "options": [
+        {
+          "id": "138",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 139.",
+      "options": [
+        {
+          "id": "139",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 140.",
+      "options": [
+        {
+          "id": "140",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 141.",
+      "options": [
+        {
+          "id": "141",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 142.",
+      "options": [
+        {
+          "id": "142",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 143.",
+      "options": [
+        {
+          "id": "143",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 144.",
+      "options": [
+        {
+          "id": "144",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 145.",
+      "options": [
+        {
+          "id": "145",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 146.",
+      "options": [
+        {
+          "id": "146",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 147.",
+      "options": [
+        {
+          "id": "147",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 148.",
+      "options": [
+        {
+          "id": "148",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 149.",
+      "options": [
+        {
+          "id": "149",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 150.",
+      "options": [
+        {
+          "id": "150",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 151.",
+      "options": [
+        {
+          "id": "151",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 152.",
+      "options": [
+        {
+          "id": "152",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 153.",
+      "options": [
+        {
+          "id": "153",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 154.",
+      "options": [
+        {
+          "id": "154",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 155.",
+      "options": [
+        {
+          "id": "155",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 156.",
+      "options": [
+        {
+          "id": "156",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 157.",
+      "options": [
+        {
+          "id": "157",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 158.",
+      "options": [
+        {
+          "id": "158",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 159.",
+      "options": [
+        {
+          "id": "159",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 160.",
+      "options": [
+        {
+          "id": "160",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 161.",
+      "options": [
+        {
+          "id": "161",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 162.",
+      "options": [
+        {
+          "id": "162",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 163.",
+      "options": [
+        {
+          "id": "163",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 164.",
+      "options": [
+        {
+          "id": "164",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 165.",
+      "options": [
+        {
+          "id": "165",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 166.",
+      "options": [
+        {
+          "id": "166",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 167.",
+      "options": [
+        {
+          "id": "167",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "167",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 168.",
+      "options": [
+        {
+          "id": "168",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 169.",
+      "options": [
+        {
+          "id": "169",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "169",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 170.",
+      "options": [
+        {
+          "id": "170",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 171.",
+      "options": [
+        {
+          "id": "171",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 172.",
+      "options": [
+        {
+          "id": "172",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 173.",
+      "options": [
+        {
+          "id": "173",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 174.",
+      "options": [
+        {
+          "id": "174",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 175.",
+      "options": [
+        {
+          "id": "175",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 176.",
+      "options": [
+        {
+          "id": "176",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 177.",
+      "options": [
+        {
+          "id": "177",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 178.",
+      "options": [
+        {
+          "id": "178",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 179.",
+      "options": [
+        {
+          "id": "179",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 180.",
+      "options": [
+        {
+          "id": "180",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 181.",
+      "options": [
+        {
+          "id": "181",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 182.",
+      "options": [
+        {
+          "id": "182",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 183.",
+      "options": [
+        {
+          "id": "183",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 184.",
+      "options": [
+        {
+          "id": "184",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "184",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 185.",
+      "options": [
+        {
+          "id": "185",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "185",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 186.",
+      "options": [
+        {
+          "id": "186",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "186",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 187.",
+      "options": [
+        {
+          "id": "187",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 188.",
+      "options": [
+        {
+          "id": "188",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 189.",
+      "options": [
+        {
+          "id": "189",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 190.",
+      "options": [
+        {
+          "id": "190",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 191.",
+      "options": [
+        {
+          "id": "191",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "191",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 192.",
+      "options": [
+        {
+          "id": "192",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "192",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 193.",
+      "options": [
+        {
+          "id": "193",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 194.",
+      "options": [
+        {
+          "id": "194",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 195.",
+      "options": [
+        {
+          "id": "195",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "195",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 196.",
+      "options": [
+        {
+          "id": "196",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "196",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 197.",
+      "options": [
+        {
+          "id": "197",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "197",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 198.",
+      "options": [
+        {
+          "id": "198",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 199.",
+      "options": [
+        {
+          "id": "199",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "199",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 200.",
+      "options": [
+        {
+          "id": "200",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 201.",
+      "options": [
+        {
+          "id": "201",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 202.",
+      "options": [
+        {
+          "id": "202",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 203.",
+      "options": [
+        {
+          "id": "203",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 204.",
+      "options": [
+        {
+          "id": "204",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 205.",
+      "options": [
+        {
+          "id": "205",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 206.",
+      "options": [
+        {
+          "id": "206",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "206",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 207.",
+      "options": [
+        {
+          "id": "207",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "207",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 208.",
+      "options": [
+        {
+          "id": "208",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "208",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 209.",
+      "options": [
+        {
+          "id": "209",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 210.",
+      "options": [
+        {
+          "id": "210",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 211.",
+      "options": [
+        {
+          "id": "211",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "211",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 212.",
+      "options": [
+        {
+          "id": "212",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "212",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 213.",
+      "options": [
+        {
+          "id": "213",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "213",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 214.",
+      "options": [
+        {
+          "id": "214",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "214",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 215.",
+      "options": [
+        {
+          "id": "215",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 216.",
+      "options": [
+        {
+          "id": "216",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "216",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 217.",
+      "options": [
+        {
+          "id": "217",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "217",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 218.",
+      "options": [
+        {
+          "id": "218",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "218",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 219.",
+      "options": [
+        {
+          "id": "219",
+          "text": "Seguir em frente"
+        }
+      ]
+    },
+    {
+      "id": "219",
+      "text": "Você continua explorando Eldoria em busca de respostas sobre a corrupção. Pequenas pistas o levam adiante. Se seguir em frente, vá para 220.",
+      "options": []
+    },
+    {
+      "id": "220",
+      "text": "FINAL LENDÁRIO: A corrupção é quebrada, as crianças voltam para casa e Eldoria celebra. Sabrina, Garrick, Lyra e a Guardiã das Sombras tornam-se nomes cantados em todo o reino.",
+      "options": []
+    }
+  ]
+}

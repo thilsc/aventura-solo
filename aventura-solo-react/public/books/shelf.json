@@ -10,5 +10,11 @@
     "title": "Valdoria 2",
     "filename": "livro-Valdoria-2.json",
     "description": "Uma história de fantasia épica."
+  },
+  {
+    "id": "livro-sabrina-eldoria",
+    "title": "Sabrina, a Aprendiz de Feiticeira de Eldoria",
+    "filename": "livro-sabrina-eldoria.json",
+    "description": "A jovem e destemida feiticeira, Sabrina, embarca em uma perigosa jornada através das terras devastadas de Eldoria para cumprir uma profecia ancestral e restaurar a paz."
   }
 ]
